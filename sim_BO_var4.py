@@ -90,9 +90,7 @@ Control_Y_size = 5
 Control_MOMY_low = -20 # -30~30でエラー確認済み
 Control_MOMY_high = 20
 
-sum_gpy=np.zeros((90,90)) #ベイズ最適化の累積降水量  ここ　X_size = 90みたいにしたい
-sum_no=np.zeros((90,90)) #制御前の累積降水量
-sum_prec=np.zeros((90,90))
+
 
 
 #BOの獲得関数
@@ -163,7 +161,6 @@ def predict(inputs):
     f.write(f"t={Objective_T}:Ave of PREC in X[{Objective_X_low}, {Objective_X_high-1}], Y[{Objective_Y_low}, {Objective_Y_high-1}] = {result} [mm/h]")
     return result
 
-
 def init_val_intervation(num,Center_Control_X,Center_Control_Y,Control_Z,Control_MOMY):
     """
     与えられた制御変数の値（Center_Control_X~4）を用いて初期値を変更する。
@@ -192,33 +189,38 @@ def init_val_intervation(num,Center_Control_X,Center_Control_Y,Control_Z,Control
                 dst[name].setncatts(src[name].__dict__)
                 if name == Control_Var:
                     var = src[name][:]
+                    print(var.shape) # 出力　(47, 47, 36)
                     if pe == 0:
-                        if Center_Control_X<45 and Center_Control_Y<45:
+                        if Center_Control_X<X_size/fnx and Center_Control_Y<X_size/fnx:
                             var[int(Center_Control_Y)-2:int(Center_Control_Y)+3,int(Center_Control_X)-2:int(Center_Control_X)+3 , int(Control_Z)] += Control_MOMY # (y, x, z)
                     elif pe == 1:
-                        if Center_Control_X>=45 and Center_Control_Y<45:
-                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3, int(Center_Control_X-45)-2:int(Center_Control_X-45)+3, int(Control_Z)] += Control_MOMY
+                        if Center_Control_X>=X_size/fnx and Center_Control_Y<X_size/fnx:
+                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)] += Control_MOMY
                     elif pe==2:
-                        if Center_Control_X<45 and Center_Control_Y>=45:
-                            var[int(Center_Control_Y-45)-2:int(Center_Control_Y-45)+3, int(Center_Control_X)-2:int(Center_Control_X)+3, int(Control_Z)] += Control_MOMY
+                        if Center_Control_X<X_size/fnx and Center_Control_Y>=X_size/fnx:
+                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X)-2:int(Center_Control_X)+3, int(Control_Z)] += Control_MOMY
                     elif pe==3:
-                        if Center_Control_X>=45 and Center_Control_Y>=45:
-                            var[int(Center_Control_Y-45)-2:int(Center_Control_Y-45)+3, int(Center_Control_X-45)-2:int(Center_Control_X-45)+3, int(Control_Z)] += Control_MOMY
+                        if Center_Control_X>=X_size/fnx and Center_Control_Y>=X_size/fnx:
+                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)] += Control_MOMY
                     dst[name][:] = var
                 else:
                     dst[name][:] = src[name][:]
         subprocess.run(["cp", output, sub_init ])
     return
 
-
 def sim(Center_Control_X,Center_Control_Y,Control_Z,Control_MOMY):
     """
     得られた最適解を用いて目的関数の値を再度計算する。
     制御しない場合と制御した場合における、ある時刻のある領域の降水強度の値を返す。
     """
-    sum_prec_C=0
-    sum_prec_noC=0
-    global sum_gpy,sum_no
+
+    # 目的の降水強度
+    TEST_prec_matrix=np.zeros((Objective_X_high-Objective_X_low,Objective_Y_high-Objective_Y_low)) #ベイズ最適化の累積降水量  
+    CTRL_prec_matrix=np.zeros((Objective_X_high-Objective_X_low,Objective_Y_high-Objective_Y_low)) # 制御前の累積降水量
+    TEST_CTRL_prec_matrix = np.zeros((Objective_X_high-Objective_X_low,Objective_Y_high-Objective_Y_low)) #制御あり -制御なし　の各地点のある時刻の降水強度　負の値ほど、良い制御
+    TEST_prec_sum=0
+    CTRL_prec_sum=0
+
     for pe in range(nofpe):
         output_file = f"out-{Control_Var}.pe######.nc"
         # input file
@@ -247,17 +249,17 @@ def sim(Center_Control_X,Center_Control_Y,Control_Z,Control_MOMY):
                 if name == Control_Var:
                     var = src[name][:]
                     if pe == 0:
-                        if Center_Control_X<45 and Center_Control_Y<45:
+                        if Center_Control_X<X_size/fnx and Center_Control_Y<X_size/fnx:
                             var[int(Center_Control_Y)-2:int(Center_Control_Y)+3,int(Center_Control_X)-2:int(Center_Control_X)+3 , int(Control_Z)] += Control_MOMY
                     elif pe == 1:
-                        if Center_Control_X>=45 and Center_Control_Y<45:
-                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3, int(Center_Control_X-45)-2:int(Center_Control_X-45)+3, int(Control_Z)] += Control_MOMY
+                        if Center_Control_X>=X_size/fnx and Center_Control_Y<X_size/fnx:
+                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)] += Control_MOMY
                     elif pe==2:
-                        if Center_Control_X<45 and Center_Control_Y>=45:
-                            var[int(Center_Control_Y-45)-2:int(Center_Control_Y-45)+3, int(Center_Control_X)-2:int(Center_Control_X)+3, int(Control_Z)] += Control_MOMY
+                        if Center_Control_X<X_size/fnx and Center_Control_Y>=X_size/fnx:
+                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X)-2:int(Center_Control_X)+3, int(Control_Z)] += Control_MOMY
                     elif pe==3:
-                        if Center_Control_X>=45 and Center_Control_Y>=45:
-                            var[int(Center_Control_Y-45)-2:int(Center_Control_Y-45)+3, int(Center_Control_X-45)-2:int(Center_Control_X-45)+3, int(Control_Z)] += Control_MOMY
+                        if Center_Control_X>=X_size/fnx and Center_Control_Y>=X_size/fnx:
+                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)] += Control_MOMY
                   
                     dst[name][:] = var
                 else:
@@ -293,17 +295,17 @@ def sim(Center_Control_X,Center_Control_Y,Control_Z,Control_MOMY):
         odat[:, 0, gy1:gy2, gx1:gx2] = onc[varname][:]
 
     # データから目的関数の値を計算する
-    sum_diff_CnoC = np.zeros((90,90)) #制御後 -制御前　の各地点のある時刻の降水強度　負の値ほど、良い制御
+    # 目的関数に該当する領域以外もPRECは計算しない
     for j in range(Objective_X_low,Objective_X_high):
         for k in range(Objective_Y_low,Objective_Y_high):
-            sum_gpy[j,k]+=dat[Objective_T,0,k,j]*TIME_INTERVAL #(y,x,z)=(time,z,y,x)
-            sum_no[j,k]+=odat[Objective_T,0,k,j]*TIME_INTERVAL
-            sum_diff_CnoC[j, k] = sum_gpy[j, k] - sum_no[j, k]
-            sum_prec_C+=sum_gpy[j,k]
-            sum_prec_noC+=sum_no[j,k]
-    return sum_prec_C, sum_prec_noC, sum_diff_CnoC
+            TEST_prec_matrix[j-Objective_X_low,k-Objective_Y_low] += dat[Objective_T,0,k,j]*TIME_INTERVAL #(y,x,z)=(time,z,y,x)　j-Objective_X_low,k-Objective_Y_lowは[0,0]->[5,5]とか
+            CTRL_prec_matrix[j-Objective_X_low,k-Objective_Y_low] += odat[Objective_T,0,k,j]*TIME_INTERVAL
+            TEST_CTRL_prec_matrix[j-Objective_X_low,k-Objective_Y_low] = TEST_prec_matrix[j-Objective_X_low,k-Objective_Y_low] - CTRL_prec_matrix[j-Objective_X_low,k-Objective_Y_low]
+            TEST_prec_sum+=TEST_prec_matrix[j-Objective_X_low,k-Objective_Y_low]
+            CTRL_prec_sum+=CTRL_prec_matrix[j-Objective_X_low,k-Objective_Y_low]
+    return TEST_prec_sum, CTRL_prec_sum, TEST_prec_matrix, CTRL_prec_matrix ,TEST_CTRL_prec_matrix
 
-def plot_PREC(trial_i, sum_diff_CnoC):
+def plot_PREC(trial_i, TEST_CTRL_prec_matrix):
     """
     得られた最適解（制御入力）でシミュレーションをした結果を、"可視化する"関数。
     目的時刻t=Objective_T の降水強度を可視化する
@@ -370,7 +372,7 @@ def plot_PREC(trial_i, sum_diff_CnoC):
     ## 制御後の降水強度
     plt.figure(figsize=(10, 8))
     plt.grid(True)
-    plt.imshow(sum_gpy.T, cmap='viridis', aspect='auto',origin='lower')  # カラーマップは好みに応じて変更可能
+    plt.imshow(TEST_prec_matrix.T, cmap='viridis', aspect='auto',origin='lower')  # カラーマップは好みに応じて変更可能
     plt.colorbar(label="precipitation (mm/h)")  # カラーバーのラベル
     plt.title("precipitation")
     plt.xlabel("X")
@@ -381,7 +383,7 @@ def plot_PREC(trial_i, sum_diff_CnoC):
     ## 制御後- 制御前の降水強度
     plt.figure(figsize=(10, 8))
     plt.grid(True)
-    plt.imshow(sum_diff_CnoC.T, cmap='viridis', aspect='auto',origin='lower')  # カラーマップは好みに応じて変更可能
+    plt.imshow(TEST_CTRL_prec_matrix.T, cmap='viridis', aspect='auto',origin='lower')  # カラーマップは好みに応じて変更可能
     plt.colorbar(label="precipitation (mm/h)")  # カラーバーのラベル
     plt.title("precipitation")
     plt.xlabel("X")
@@ -464,6 +466,7 @@ with open(log_file, 'w') as f:
     for trial_i in range(trial_num):
         f.write(f"{trial_i=}\n")
         random.seed(trial_i)
+
         start = time.time()  # 現在時刻（処理開始前）を取得
         opt = Optimizer(bounds, base_estimator=Base_estimator, acq_func=Acq_func, random_state=trial_i)
 
@@ -517,23 +520,28 @@ with open(log_file, 'w') as f:
             init = init_file.replace('######', str(pe).zfill(6))
             subprocess.run(["cp", org, init])
 
-
-        no=0
-        gpy=0
-        gpy,no, sum_diff_CnoC=sim(optimal_inputs[0],optimal_inputs[1],optimal_inputs[2],optimal_inputs[3])## please change
+        TEST_prec_sum, CTRL_prec_sum, TEST_prec_matrix, CTRL_prec_matrix , TEST_CTRL_prec_matrix=sim(optimal_inputs[0],optimal_inputs[1],optimal_inputs[2],optimal_inputs[3])## please change
 
         end=time.time()
         time_diff = end - start
         print(f'実行時間:{time_diff}\n')
 
-        print(f"sum_no={sum_no}")
-        print(f"sum_gpy={sum_gpy}")
+        print(f"CTRL_prec_matrix={CTRL_prec_matrix}")
+        print(f"TEST_prec_matrix={TEST_prec_matrix}")
 
-        print(f"BO={gpy}")
-        print(f"no-controk={no}")
-        print(f"change%={(no-gpy)/no*100}%")
-        print(f"%={(gpy)/no*100}%")
-        plot_PREC(trial_i, sum_diff_CnoC)
+        print(f"{TEST_prec_sum=}")
+        print(f"{CTRL_prec_sum=}")
+        print(f"%={TEST_prec_sum/CTRL_prec_sum*100}%")
+
+        f.write(f'実行時間:{time_diff}\n')
+
+        f.write(f"CTRL_prec_matrix={CTRL_prec_matrix}\n")
+        f.write(f"TEST_prec_matrix={TEST_prec_matrix}\n")
+
+        f.write(f"{TEST_prec_sum=}")
+        f.write(f"{CTRL_prec_sum=}")
+        f.write(f"%={TEST_prec_sum/CTRL_prec_sum*100}%")
+        plot_PREC(trial_i, TEST_CTRL_prec_matrix)
 
 
 

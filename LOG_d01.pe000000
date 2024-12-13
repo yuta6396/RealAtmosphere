@@ -3213,7 +3213,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:01:30 + 0.000 STEP:      2/    240 WCLOCK:       2.5
++++++ TIME: 2007/07/14 18:01:30 + 0.000 STEP:      2/    240 WCLOCK:       2.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3261,7 +3261,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:04:30 + 0.000 STEP:      4/    240 WCLOCK:       3.3
++++++ TIME: 2007/07/14 18:04:30 + 0.000 STEP:      4/    240 WCLOCK:       3.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3285,7 +3285,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:06:00 + 0.000 STEP:      5/    240 WCLOCK:       3.9
++++++ TIME: 2007/07/14 18:06:00 + 0.000 STEP:      5/    240 WCLOCK:       3.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3309,7 +3309,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:07:30 + 0.000 STEP:      6/    240 WCLOCK:       4.6
++++++ TIME: 2007/07/14 18:07:30 + 0.000 STEP:      6/    240 WCLOCK:       3.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3333,7 +3333,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:09:00 + 0.000 STEP:      7/    240 WCLOCK:       5.0
++++++ TIME: 2007/07/14 18:09:00 + 0.000 STEP:      7/    240 WCLOCK:       4.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3357,7 +3357,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:10:30 + 0.000 STEP:      8/    240 WCLOCK:       5.5
++++++ TIME: 2007/07/14 18:10:30 + 0.000 STEP:      8/    240 WCLOCK:       4.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3381,7 +3381,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:12:00 + 0.000 STEP:      9/    240 WCLOCK:       5.9
++++++ TIME: 2007/07/14 18:12:00 + 0.000 STEP:      9/    240 WCLOCK:       4.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3405,7 +3405,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:13:30 + 0.000 STEP:     10/    240 WCLOCK:       6.4
++++++ TIME: 2007/07/14 18:13:30 + 0.000 STEP:     10/    240 WCLOCK:       4.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3431,7 +3431,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:15:00 + 0.000 STEP:     11/    240 WCLOCK:       9.7
++++++ TIME: 2007/07/14 18:15:00 + 0.000 STEP:     11/    240 WCLOCK:       6.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3455,7 +3455,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:16:30 + 0.000 STEP:     12/    240 WCLOCK:      10.2
++++++ TIME: 2007/07/14 18:16:30 + 0.000 STEP:     12/    240 WCLOCK:       7.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3479,7 +3479,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:18:00 + 0.000 STEP:     13/    240 WCLOCK:      10.6
++++++ TIME: 2007/07/14 18:18:00 + 0.000 STEP:     13/    240 WCLOCK:       7.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3503,7 +3503,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:19:30 + 0.000 STEP:     14/    240 WCLOCK:      11.1
++++++ TIME: 2007/07/14 18:19:30 + 0.000 STEP:     14/    240 WCLOCK:       7.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3527,7 +3527,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:21:00 + 0.000 STEP:     15/    240 WCLOCK:      11.5
++++++ TIME: 2007/07/14 18:21:00 + 0.000 STEP:     15/    240 WCLOCK:       8.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3551,7 +3551,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:22:30 + 0.000 STEP:     16/    240 WCLOCK:      12.0
++++++ TIME: 2007/07/14 18:22:30 + 0.000 STEP:     16/    240 WCLOCK:       8.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3575,7 +3575,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:24:00 + 0.000 STEP:     17/    240 WCLOCK:      12.4
++++++ TIME: 2007/07/14 18:24:00 + 0.000 STEP:     17/    240 WCLOCK:       8.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3599,7 +3599,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:25:30 + 0.000 STEP:     18/    240 WCLOCK:      12.8
++++++ TIME: 2007/07/14 18:25:30 + 0.000 STEP:     18/    240 WCLOCK:       8.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3623,7 +3623,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:27:00 + 0.000 STEP:     19/    240 WCLOCK:      13.3
++++++ TIME: 2007/07/14 18:27:00 + 0.000 STEP:     19/    240 WCLOCK:       9.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3647,7 +3647,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:28:30 + 0.000 STEP:     20/    240 WCLOCK:      13.8
++++++ TIME: 2007/07/14 18:28:30 + 0.000 STEP:     20/    240 WCLOCK:       9.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3673,7 +3673,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:30:00 + 0.000 STEP:     21/    240 WCLOCK:      17.2
++++++ TIME: 2007/07/14 18:30:00 + 0.000 STEP:     21/    240 WCLOCK:      11.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3697,7 +3697,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:31:30 + 0.000 STEP:     22/    240 WCLOCK:      17.5
++++++ TIME: 2007/07/14 18:31:30 + 0.000 STEP:     22/    240 WCLOCK:      11.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3721,7 +3721,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:33:00 + 0.000 STEP:     23/    240 WCLOCK:      17.9
++++++ TIME: 2007/07/14 18:33:00 + 0.000 STEP:     23/    240 WCLOCK:      12.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3745,7 +3745,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:34:30 + 0.000 STEP:     24/    240 WCLOCK:      18.3
++++++ TIME: 2007/07/14 18:34:30 + 0.000 STEP:     24/    240 WCLOCK:      12.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3769,7 +3769,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:36:00 + 0.000 STEP:     25/    240 WCLOCK:      18.7
++++++ TIME: 2007/07/14 18:36:00 + 0.000 STEP:     25/    240 WCLOCK:      12.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3793,7 +3793,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:37:30 + 0.000 STEP:     26/    240 WCLOCK:      19.1
++++++ TIME: 2007/07/14 18:37:30 + 0.000 STEP:     26/    240 WCLOCK:      12.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3817,7 +3817,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:39:00 + 0.000 STEP:     27/    240 WCLOCK:      19.5
++++++ TIME: 2007/07/14 18:39:00 + 0.000 STEP:     27/    240 WCLOCK:      13.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3841,7 +3841,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:40:30 + 0.000 STEP:     28/    240 WCLOCK:      19.9
++++++ TIME: 2007/07/14 18:40:30 + 0.000 STEP:     28/    240 WCLOCK:      13.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3865,7 +3865,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:42:00 + 0.000 STEP:     29/    240 WCLOCK:      20.3
++++++ TIME: 2007/07/14 18:42:00 + 0.000 STEP:     29/    240 WCLOCK:      13.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3889,7 +3889,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:43:30 + 0.000 STEP:     30/    240 WCLOCK:      20.7
++++++ TIME: 2007/07/14 18:43:30 + 0.000 STEP:     30/    240 WCLOCK:      14.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3915,7 +3915,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:45:00 + 0.000 STEP:     31/    240 WCLOCK:      24.1
++++++ TIME: 2007/07/14 18:45:00 + 0.000 STEP:     31/    240 WCLOCK:      16.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3939,7 +3939,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:46:30 + 0.000 STEP:     32/    240 WCLOCK:      24.5
++++++ TIME: 2007/07/14 18:46:30 + 0.000 STEP:     32/    240 WCLOCK:      16.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3963,7 +3963,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:48:00 + 0.000 STEP:     33/    240 WCLOCK:      24.9
++++++ TIME: 2007/07/14 18:48:00 + 0.000 STEP:     33/    240 WCLOCK:      16.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -3987,7 +3987,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:49:30 + 0.000 STEP:     34/    240 WCLOCK:      25.3
++++++ TIME: 2007/07/14 18:49:30 + 0.000 STEP:     34/    240 WCLOCK:      16.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4011,7 +4011,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:51:00 + 0.000 STEP:     35/    240 WCLOCK:      25.7
++++++ TIME: 2007/07/14 18:51:00 + 0.000 STEP:     35/    240 WCLOCK:      17.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4035,7 +4035,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:52:30 + 0.000 STEP:     36/    240 WCLOCK:      26.1
++++++ TIME: 2007/07/14 18:52:30 + 0.000 STEP:     36/    240 WCLOCK:      17.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4059,7 +4059,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:54:00 + 0.000 STEP:     37/    240 WCLOCK:      26.5
++++++ TIME: 2007/07/14 18:54:00 + 0.000 STEP:     37/    240 WCLOCK:      17.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4083,7 +4083,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:55:30 + 0.000 STEP:     38/    240 WCLOCK:      26.9
++++++ TIME: 2007/07/14 18:55:30 + 0.000 STEP:     38/    240 WCLOCK:      18.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4107,7 +4107,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:57:00 + 0.000 STEP:     39/    240 WCLOCK:      27.3
++++++ TIME: 2007/07/14 18:57:00 + 0.000 STEP:     39/    240 WCLOCK:      18.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4131,7 +4131,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 18:58:30 + 0.000 STEP:     40/    240 WCLOCK:      27.7
++++++ TIME: 2007/07/14 18:58:30 + 0.000 STEP:     40/    240 WCLOCK:      18.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4158,7 +4158,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ atmosphere / physics / pbl / MYNN
 +++++ output history
 
-+++++ TIME: 2007/07/14 19:00:00 + 0.000 STEP:     41/    240 WCLOCK:      31.1
++++++ TIME: 2007/07/14 19:00:00 + 0.000 STEP:     41/    240 WCLOCK:      21.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4182,7 +4182,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:01:30 + 0.000 STEP:     42/    240 WCLOCK:      31.5
++++++ TIME: 2007/07/14 19:01:30 + 0.000 STEP:     42/    240 WCLOCK:      22.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4206,7 +4206,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:03:00 + 0.000 STEP:     43/    240 WCLOCK:      31.9
++++++ TIME: 2007/07/14 19:03:00 + 0.000 STEP:     43/    240 WCLOCK:      22.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4230,7 +4230,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:04:30 + 0.000 STEP:     44/    240 WCLOCK:      32.2
++++++ TIME: 2007/07/14 19:04:30 + 0.000 STEP:     44/    240 WCLOCK:      23.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4254,7 +4254,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:06:00 + 0.000 STEP:     45/    240 WCLOCK:      32.6
++++++ TIME: 2007/07/14 19:06:00 + 0.000 STEP:     45/    240 WCLOCK:      23.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4278,7 +4278,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:07:30 + 0.000 STEP:     46/    240 WCLOCK:      33.0
++++++ TIME: 2007/07/14 19:07:30 + 0.000 STEP:     46/    240 WCLOCK:      23.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4302,7 +4302,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:09:00 + 0.000 STEP:     47/    240 WCLOCK:      33.3
++++++ TIME: 2007/07/14 19:09:00 + 0.000 STEP:     47/    240 WCLOCK:      24.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4326,7 +4326,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:10:30 + 0.000 STEP:     48/    240 WCLOCK:      33.7
++++++ TIME: 2007/07/14 19:10:30 + 0.000 STEP:     48/    240 WCLOCK:      24.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4350,7 +4350,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:12:00 + 0.000 STEP:     49/    240 WCLOCK:      34.1
++++++ TIME: 2007/07/14 19:12:00 + 0.000 STEP:     49/    240 WCLOCK:      25.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4374,7 +4374,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:13:30 + 0.000 STEP:     50/    240 WCLOCK:      34.4
++++++ TIME: 2007/07/14 19:13:30 + 0.000 STEP:     50/    240 WCLOCK:      25.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4400,7 +4400,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:15:00 + 0.000 STEP:     51/    240 WCLOCK:      37.6
++++++ TIME: 2007/07/14 19:15:00 + 0.000 STEP:     51/    240 WCLOCK:      28.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4424,7 +4424,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:16:30 + 0.000 STEP:     52/    240 WCLOCK:      38.0
++++++ TIME: 2007/07/14 19:16:30 + 0.000 STEP:     52/    240 WCLOCK:      28.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4448,7 +4448,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:18:00 + 0.000 STEP:     53/    240 WCLOCK:      38.5
++++++ TIME: 2007/07/14 19:18:00 + 0.000 STEP:     53/    240 WCLOCK:      29.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4472,7 +4472,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:19:30 + 0.000 STEP:     54/    240 WCLOCK:      38.9
++++++ TIME: 2007/07/14 19:19:30 + 0.000 STEP:     54/    240 WCLOCK:      29.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4496,7 +4496,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:21:00 + 0.000 STEP:     55/    240 WCLOCK:      39.2
++++++ TIME: 2007/07/14 19:21:00 + 0.000 STEP:     55/    240 WCLOCK:      29.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4520,7 +4520,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:22:30 + 0.000 STEP:     56/    240 WCLOCK:      39.5
++++++ TIME: 2007/07/14 19:22:30 + 0.000 STEP:     56/    240 WCLOCK:      30.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4544,7 +4544,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:24:00 + 0.000 STEP:     57/    240 WCLOCK:      39.7
++++++ TIME: 2007/07/14 19:24:00 + 0.000 STEP:     57/    240 WCLOCK:      30.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4568,7 +4568,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:25:30 + 0.000 STEP:     58/    240 WCLOCK:      40.0
++++++ TIME: 2007/07/14 19:25:30 + 0.000 STEP:     58/    240 WCLOCK:      30.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4592,7 +4592,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:27:00 + 0.000 STEP:     59/    240 WCLOCK:      40.3
++++++ TIME: 2007/07/14 19:27:00 + 0.000 STEP:     59/    240 WCLOCK:      31.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4616,7 +4616,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:28:30 + 0.000 STEP:     60/    240 WCLOCK:      40.6
++++++ TIME: 2007/07/14 19:28:30 + 0.000 STEP:     60/    240 WCLOCK:      31.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4642,7 +4642,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:30:00 + 0.000 STEP:     61/    240 WCLOCK:      42.6
++++++ TIME: 2007/07/14 19:30:00 + 0.000 STEP:     61/    240 WCLOCK:      35.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4666,7 +4666,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:31:30 + 0.000 STEP:     62/    240 WCLOCK:      42.9
++++++ TIME: 2007/07/14 19:31:30 + 0.000 STEP:     62/    240 WCLOCK:      35.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4690,7 +4690,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:33:00 + 0.000 STEP:     63/    240 WCLOCK:      43.2
++++++ TIME: 2007/07/14 19:33:00 + 0.000 STEP:     63/    240 WCLOCK:      35.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4714,7 +4714,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:34:30 + 0.000 STEP:     64/    240 WCLOCK:      43.5
++++++ TIME: 2007/07/14 19:34:30 + 0.000 STEP:     64/    240 WCLOCK:      36.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4738,7 +4738,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:36:00 + 0.000 STEP:     65/    240 WCLOCK:      43.7
++++++ TIME: 2007/07/14 19:36:00 + 0.000 STEP:     65/    240 WCLOCK:      36.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4762,7 +4762,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:37:30 + 0.000 STEP:     66/    240 WCLOCK:      44.0
++++++ TIME: 2007/07/14 19:37:30 + 0.000 STEP:     66/    240 WCLOCK:      37.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4786,7 +4786,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:39:00 + 0.000 STEP:     67/    240 WCLOCK:      44.3
++++++ TIME: 2007/07/14 19:39:00 + 0.000 STEP:     67/    240 WCLOCK:      37.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4810,7 +4810,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:40:30 + 0.000 STEP:     68/    240 WCLOCK:      44.6
++++++ TIME: 2007/07/14 19:40:30 + 0.000 STEP:     68/    240 WCLOCK:      37.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4834,7 +4834,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:42:00 + 0.000 STEP:     69/    240 WCLOCK:      44.9
++++++ TIME: 2007/07/14 19:42:00 + 0.000 STEP:     69/    240 WCLOCK:      38.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4858,7 +4858,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:43:30 + 0.000 STEP:     70/    240 WCLOCK:      45.1
++++++ TIME: 2007/07/14 19:43:30 + 0.000 STEP:     70/    240 WCLOCK:      38.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4884,7 +4884,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:45:00 + 0.000 STEP:     71/    240 WCLOCK:      47.2
++++++ TIME: 2007/07/14 19:45:00 + 0.000 STEP:     71/    240 WCLOCK:      41.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4908,7 +4908,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:46:30 + 0.000 STEP:     72/    240 WCLOCK:      47.5
++++++ TIME: 2007/07/14 19:46:30 + 0.000 STEP:     72/    240 WCLOCK:      42.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4932,7 +4932,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:48:00 + 0.000 STEP:     73/    240 WCLOCK:      47.7
++++++ TIME: 2007/07/14 19:48:00 + 0.000 STEP:     73/    240 WCLOCK:      42.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4956,7 +4956,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:49:30 + 0.000 STEP:     74/    240 WCLOCK:      48.0
++++++ TIME: 2007/07/14 19:49:30 + 0.000 STEP:     74/    240 WCLOCK:      43.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -4980,7 +4980,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:51:00 + 0.000 STEP:     75/    240 WCLOCK:      48.3
++++++ TIME: 2007/07/14 19:51:00 + 0.000 STEP:     75/    240 WCLOCK:      43.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5004,7 +5004,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:52:30 + 0.000 STEP:     76/    240 WCLOCK:      48.6
++++++ TIME: 2007/07/14 19:52:30 + 0.000 STEP:     76/    240 WCLOCK:      43.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5028,7 +5028,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:54:00 + 0.000 STEP:     77/    240 WCLOCK:      48.8
++++++ TIME: 2007/07/14 19:54:00 + 0.000 STEP:     77/    240 WCLOCK:      44.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5052,7 +5052,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:55:30 + 0.000 STEP:     78/    240 WCLOCK:      49.1
++++++ TIME: 2007/07/14 19:55:30 + 0.000 STEP:     78/    240 WCLOCK:      44.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5076,7 +5076,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:57:00 + 0.000 STEP:     79/    240 WCLOCK:      49.4
++++++ TIME: 2007/07/14 19:57:00 + 0.000 STEP:     79/    240 WCLOCK:      45.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5100,7 +5100,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 19:58:30 + 0.000 STEP:     80/    240 WCLOCK:      49.7
++++++ TIME: 2007/07/14 19:58:30 + 0.000 STEP:     80/    240 WCLOCK:      45.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5127,7 +5127,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ atmosphere / physics / pbl / MYNN
 +++++ output history
 
-+++++ TIME: 2007/07/14 20:00:00 + 0.000 STEP:     81/    240 WCLOCK:      51.9
++++++ TIME: 2007/07/14 20:00:00 + 0.000 STEP:     81/    240 WCLOCK:      48.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5151,7 +5151,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:01:30 + 0.000 STEP:     82/    240 WCLOCK:      52.3
++++++ TIME: 2007/07/14 20:01:30 + 0.000 STEP:     82/    240 WCLOCK:      48.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5175,7 +5175,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:03:00 + 0.000 STEP:     83/    240 WCLOCK:      52.7
++++++ TIME: 2007/07/14 20:03:00 + 0.000 STEP:     83/    240 WCLOCK:      48.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5199,7 +5199,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:04:30 + 0.000 STEP:     84/    240 WCLOCK:      53.1
++++++ TIME: 2007/07/14 20:04:30 + 0.000 STEP:     84/    240 WCLOCK:      48.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5223,7 +5223,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:06:00 + 0.000 STEP:     85/    240 WCLOCK:      53.5
++++++ TIME: 2007/07/14 20:06:00 + 0.000 STEP:     85/    240 WCLOCK:      49.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5247,7 +5247,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:07:30 + 0.000 STEP:     86/    240 WCLOCK:      53.9
++++++ TIME: 2007/07/14 20:07:30 + 0.000 STEP:     86/    240 WCLOCK:      49.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5271,7 +5271,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:09:00 + 0.000 STEP:     87/    240 WCLOCK:      54.3
++++++ TIME: 2007/07/14 20:09:00 + 0.000 STEP:     87/    240 WCLOCK:      49.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5295,7 +5295,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:10:30 + 0.000 STEP:     88/    240 WCLOCK:      54.6
++++++ TIME: 2007/07/14 20:10:30 + 0.000 STEP:     88/    240 WCLOCK:      50.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5319,7 +5319,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:12:00 + 0.000 STEP:     89/    240 WCLOCK:      55.0
++++++ TIME: 2007/07/14 20:12:00 + 0.000 STEP:     89/    240 WCLOCK:      50.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5343,7 +5343,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:13:30 + 0.000 STEP:     90/    240 WCLOCK:      55.4
++++++ TIME: 2007/07/14 20:13:30 + 0.000 STEP:     90/    240 WCLOCK:      51.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5369,7 +5369,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:15:00 + 0.000 STEP:     91/    240 WCLOCK:      57.5
++++++ TIME: 2007/07/14 20:15:00 + 0.000 STEP:     91/    240 WCLOCK:      54.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5393,7 +5393,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:16:30 + 0.000 STEP:     92/    240 WCLOCK:      57.8
++++++ TIME: 2007/07/14 20:16:30 + 0.000 STEP:     92/    240 WCLOCK:      54.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5417,7 +5417,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:18:00 + 0.000 STEP:     93/    240 WCLOCK:      58.1
++++++ TIME: 2007/07/14 20:18:00 + 0.000 STEP:     93/    240 WCLOCK:      55.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5441,7 +5441,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:19:30 + 0.000 STEP:     94/    240 WCLOCK:      58.4
++++++ TIME: 2007/07/14 20:19:30 + 0.000 STEP:     94/    240 WCLOCK:      55.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5465,7 +5465,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:21:00 + 0.000 STEP:     95/    240 WCLOCK:      58.6
++++++ TIME: 2007/07/14 20:21:00 + 0.000 STEP:     95/    240 WCLOCK:      55.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5489,7 +5489,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:22:30 + 0.000 STEP:     96/    240 WCLOCK:      58.9
++++++ TIME: 2007/07/14 20:22:30 + 0.000 STEP:     96/    240 WCLOCK:      56.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5513,7 +5513,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:24:00 + 0.000 STEP:     97/    240 WCLOCK:      59.2
++++++ TIME: 2007/07/14 20:24:00 + 0.000 STEP:     97/    240 WCLOCK:      56.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5537,7 +5537,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:25:30 + 0.000 STEP:     98/    240 WCLOCK:      59.5
++++++ TIME: 2007/07/14 20:25:30 + 0.000 STEP:     98/    240 WCLOCK:      57.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5561,7 +5561,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:27:00 + 0.000 STEP:     99/    240 WCLOCK:      59.7
++++++ TIME: 2007/07/14 20:27:00 + 0.000 STEP:     99/    240 WCLOCK:      57.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5585,7 +5585,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:28:30 + 0.000 STEP:    100/    240 WCLOCK:      60.0
++++++ TIME: 2007/07/14 20:28:30 + 0.000 STEP:    100/    240 WCLOCK:      57.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5611,7 +5611,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:30:00 + 0.000 STEP:    101/    240 WCLOCK:      62.1
++++++ TIME: 2007/07/14 20:30:00 + 0.000 STEP:    101/    240 WCLOCK:      60.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5635,7 +5635,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:31:30 + 0.000 STEP:    102/    240 WCLOCK:      62.3
++++++ TIME: 2007/07/14 20:31:30 + 0.000 STEP:    102/    240 WCLOCK:      61.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5659,7 +5659,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:33:00 + 0.000 STEP:    103/    240 WCLOCK:      62.6
++++++ TIME: 2007/07/14 20:33:00 + 0.000 STEP:    103/    240 WCLOCK:      61.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5683,7 +5683,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:34:30 + 0.000 STEP:    104/    240 WCLOCK:      62.9
++++++ TIME: 2007/07/14 20:34:30 + 0.000 STEP:    104/    240 WCLOCK:      61.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5707,7 +5707,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:36:00 + 0.000 STEP:    105/    240 WCLOCK:      63.2
++++++ TIME: 2007/07/14 20:36:00 + 0.000 STEP:    105/    240 WCLOCK:      62.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5731,7 +5731,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:37:30 + 0.000 STEP:    106/    240 WCLOCK:      63.4
++++++ TIME: 2007/07/14 20:37:30 + 0.000 STEP:    106/    240 WCLOCK:      62.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5755,7 +5755,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:39:00 + 0.000 STEP:    107/    240 WCLOCK:      63.7
++++++ TIME: 2007/07/14 20:39:00 + 0.000 STEP:    107/    240 WCLOCK:      63.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5779,7 +5779,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:40:30 + 0.000 STEP:    108/    240 WCLOCK:      64.0
++++++ TIME: 2007/07/14 20:40:30 + 0.000 STEP:    108/    240 WCLOCK:      63.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5803,7 +5803,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:42:00 + 0.000 STEP:    109/    240 WCLOCK:      64.4
++++++ TIME: 2007/07/14 20:42:00 + 0.000 STEP:    109/    240 WCLOCK:      63.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5827,7 +5827,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:43:30 + 0.000 STEP:    110/    240 WCLOCK:      64.7
++++++ TIME: 2007/07/14 20:43:30 + 0.000 STEP:    110/    240 WCLOCK:      64.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5853,7 +5853,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:45:00 + 0.000 STEP:    111/    240 WCLOCK:      68.0
++++++ TIME: 2007/07/14 20:45:00 + 0.000 STEP:    111/    240 WCLOCK:      67.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5877,7 +5877,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:46:30 + 0.000 STEP:    112/    240 WCLOCK:      68.4
++++++ TIME: 2007/07/14 20:46:30 + 0.000 STEP:    112/    240 WCLOCK:      67.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5901,7 +5901,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:48:00 + 0.000 STEP:    113/    240 WCLOCK:      68.8
++++++ TIME: 2007/07/14 20:48:00 + 0.000 STEP:    113/    240 WCLOCK:      68.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5925,7 +5925,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:49:30 + 0.000 STEP:    114/    240 WCLOCK:      69.2
++++++ TIME: 2007/07/14 20:49:30 + 0.000 STEP:    114/    240 WCLOCK:      68.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5949,7 +5949,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:51:00 + 0.000 STEP:    115/    240 WCLOCK:      69.6
++++++ TIME: 2007/07/14 20:51:00 + 0.000 STEP:    115/    240 WCLOCK:      68.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5973,7 +5973,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:52:30 + 0.000 STEP:    116/    240 WCLOCK:      70.0
++++++ TIME: 2007/07/14 20:52:30 + 0.000 STEP:    116/    240 WCLOCK:      69.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -5997,7 +5997,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:54:00 + 0.000 STEP:    117/    240 WCLOCK:      70.4
++++++ TIME: 2007/07/14 20:54:00 + 0.000 STEP:    117/    240 WCLOCK:      69.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6021,7 +6021,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:55:30 + 0.000 STEP:    118/    240 WCLOCK:      70.8
++++++ TIME: 2007/07/14 20:55:30 + 0.000 STEP:    118/    240 WCLOCK:      70.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6045,7 +6045,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:57:00 + 0.000 STEP:    119/    240 WCLOCK:      71.2
++++++ TIME: 2007/07/14 20:57:00 + 0.000 STEP:    119/    240 WCLOCK:      70.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6069,7 +6069,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 20:58:30 + 0.000 STEP:    120/    240 WCLOCK:      71.6
++++++ TIME: 2007/07/14 20:58:30 + 0.000 STEP:    120/    240 WCLOCK:      70.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6353,7 +6353,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ atmosphere / physics / pbl / MYNN
 +++++ output history
 
-+++++ TIME: 2007/07/14 21:00:00 + 0.000 STEP:    121/    240 WCLOCK:      75.6
++++++ TIME: 2007/07/14 21:00:00 + 0.000 STEP:    121/    240 WCLOCK:      74.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6377,7 +6377,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:01:30 + 0.000 STEP:    122/    240 WCLOCK:      76.0
++++++ TIME: 2007/07/14 21:01:30 + 0.000 STEP:    122/    240 WCLOCK:      75.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6401,7 +6401,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:03:00 + 0.000 STEP:    123/    240 WCLOCK:      76.4
++++++ TIME: 2007/07/14 21:03:00 + 0.000 STEP:    123/    240 WCLOCK:      75.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6425,7 +6425,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:04:30 + 0.000 STEP:    124/    240 WCLOCK:      76.8
++++++ TIME: 2007/07/14 21:04:30 + 0.000 STEP:    124/    240 WCLOCK:      76.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6449,7 +6449,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:06:00 + 0.000 STEP:    125/    240 WCLOCK:      77.2
++++++ TIME: 2007/07/14 21:06:00 + 0.000 STEP:    125/    240 WCLOCK:      76.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6473,7 +6473,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:07:30 + 0.000 STEP:    126/    240 WCLOCK:      77.6
++++++ TIME: 2007/07/14 21:07:30 + 0.000 STEP:    126/    240 WCLOCK:      76.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6497,7 +6497,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:09:00 + 0.000 STEP:    127/    240 WCLOCK:      78.0
++++++ TIME: 2007/07/14 21:09:00 + 0.000 STEP:    127/    240 WCLOCK:      77.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6521,7 +6521,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:10:30 + 0.000 STEP:    128/    240 WCLOCK:      78.4
++++++ TIME: 2007/07/14 21:10:30 + 0.000 STEP:    128/    240 WCLOCK:      77.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6545,7 +6545,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:12:00 + 0.000 STEP:    129/    240 WCLOCK:      78.8
++++++ TIME: 2007/07/14 21:12:00 + 0.000 STEP:    129/    240 WCLOCK:      77.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6569,7 +6569,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:13:30 + 0.000 STEP:    130/    240 WCLOCK:      79.2
++++++ TIME: 2007/07/14 21:13:30 + 0.000 STEP:    130/    240 WCLOCK:      78.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6595,7 +6595,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:15:00 + 0.000 STEP:    131/    240 WCLOCK:      82.5
++++++ TIME: 2007/07/14 21:15:00 + 0.000 STEP:    131/    240 WCLOCK:      81.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6619,7 +6619,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:16:30 + 0.000 STEP:    132/    240 WCLOCK:      82.9
++++++ TIME: 2007/07/14 21:16:30 + 0.000 STEP:    132/    240 WCLOCK:      81.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6643,7 +6643,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:18:00 + 0.000 STEP:    133/    240 WCLOCK:      83.3
++++++ TIME: 2007/07/14 21:18:00 + 0.000 STEP:    133/    240 WCLOCK:      81.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6667,7 +6667,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:19:30 + 0.000 STEP:    134/    240 WCLOCK:      83.7
++++++ TIME: 2007/07/14 21:19:30 + 0.000 STEP:    134/    240 WCLOCK:      81.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6691,7 +6691,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:21:00 + 0.000 STEP:    135/    240 WCLOCK:      84.1
++++++ TIME: 2007/07/14 21:21:00 + 0.000 STEP:    135/    240 WCLOCK:      82.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6715,7 +6715,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:22:30 + 0.000 STEP:    136/    240 WCLOCK:      84.5
++++++ TIME: 2007/07/14 21:22:30 + 0.000 STEP:    136/    240 WCLOCK:      82.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6739,7 +6739,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:24:00 + 0.000 STEP:    137/    240 WCLOCK:      84.9
++++++ TIME: 2007/07/14 21:24:00 + 0.000 STEP:    137/    240 WCLOCK:      83.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6763,7 +6763,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:25:30 + 0.000 STEP:    138/    240 WCLOCK:      85.3
++++++ TIME: 2007/07/14 21:25:30 + 0.000 STEP:    138/    240 WCLOCK:      83.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6787,7 +6787,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:27:00 + 0.000 STEP:    139/    240 WCLOCK:      85.7
++++++ TIME: 2007/07/14 21:27:00 + 0.000 STEP:    139/    240 WCLOCK:      84.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6811,7 +6811,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:28:30 + 0.000 STEP:    140/    240 WCLOCK:      86.0
++++++ TIME: 2007/07/14 21:28:30 + 0.000 STEP:    140/    240 WCLOCK:      84.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6837,7 +6837,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:30:00 + 0.000 STEP:    141/    240 WCLOCK:      89.2
++++++ TIME: 2007/07/14 21:30:00 + 0.000 STEP:    141/    240 WCLOCK:      87.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6861,7 +6861,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:31:30 + 0.000 STEP:    142/    240 WCLOCK:      89.6
++++++ TIME: 2007/07/14 21:31:30 + 0.000 STEP:    142/    240 WCLOCK:      88.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6885,7 +6885,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:33:00 + 0.000 STEP:    143/    240 WCLOCK:      90.0
++++++ TIME: 2007/07/14 21:33:00 + 0.000 STEP:    143/    240 WCLOCK:      88.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6909,7 +6909,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:34:30 + 0.000 STEP:    144/    240 WCLOCK:      90.4
++++++ TIME: 2007/07/14 21:34:30 + 0.000 STEP:    144/    240 WCLOCK:      89.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6933,7 +6933,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:36:00 + 0.000 STEP:    145/    240 WCLOCK:      90.9
++++++ TIME: 2007/07/14 21:36:00 + 0.000 STEP:    145/    240 WCLOCK:      89.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6957,7 +6957,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:37:30 + 0.000 STEP:    146/    240 WCLOCK:      91.3
++++++ TIME: 2007/07/14 21:37:30 + 0.000 STEP:    146/    240 WCLOCK:      89.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -6981,7 +6981,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:39:00 + 0.000 STEP:    147/    240 WCLOCK:      91.7
++++++ TIME: 2007/07/14 21:39:00 + 0.000 STEP:    147/    240 WCLOCK:      90.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7005,7 +7005,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:40:30 + 0.000 STEP:    148/    240 WCLOCK:      92.1
++++++ TIME: 2007/07/14 21:40:30 + 0.000 STEP:    148/    240 WCLOCK:      90.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7029,7 +7029,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:42:00 + 0.000 STEP:    149/    240 WCLOCK:      92.5
++++++ TIME: 2007/07/14 21:42:00 + 0.000 STEP:    149/    240 WCLOCK:      91.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7053,7 +7053,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:43:30 + 0.000 STEP:    150/    240 WCLOCK:      92.9
++++++ TIME: 2007/07/14 21:43:30 + 0.000 STEP:    150/    240 WCLOCK:      91.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7079,7 +7079,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:45:00 + 0.000 STEP:    151/    240 WCLOCK:      96.2
++++++ TIME: 2007/07/14 21:45:00 + 0.000 STEP:    151/    240 WCLOCK:      94.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7103,7 +7103,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:46:30 + 0.000 STEP:    152/    240 WCLOCK:      96.6
++++++ TIME: 2007/07/14 21:46:30 + 0.000 STEP:    152/    240 WCLOCK:      95.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7127,7 +7127,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:48:00 + 0.000 STEP:    153/    240 WCLOCK:      97.0
++++++ TIME: 2007/07/14 21:48:00 + 0.000 STEP:    153/    240 WCLOCK:      95.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7151,7 +7151,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:49:30 + 0.000 STEP:    154/    240 WCLOCK:      97.3
++++++ TIME: 2007/07/14 21:49:30 + 0.000 STEP:    154/    240 WCLOCK:      96.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7175,7 +7175,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:51:00 + 0.000 STEP:    155/    240 WCLOCK:      97.6
++++++ TIME: 2007/07/14 21:51:00 + 0.000 STEP:    155/    240 WCLOCK:      96.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7199,7 +7199,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:52:30 + 0.000 STEP:    156/    240 WCLOCK:      98.0
++++++ TIME: 2007/07/14 21:52:30 + 0.000 STEP:    156/    240 WCLOCK:      96.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7223,7 +7223,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:54:00 + 0.000 STEP:    157/    240 WCLOCK:      98.3
++++++ TIME: 2007/07/14 21:54:00 + 0.000 STEP:    157/    240 WCLOCK:      97.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7247,7 +7247,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:55:30 + 0.000 STEP:    158/    240 WCLOCK:      98.7
++++++ TIME: 2007/07/14 21:55:30 + 0.000 STEP:    158/    240 WCLOCK:      97.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7271,7 +7271,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:57:00 + 0.000 STEP:    159/    240 WCLOCK:      99.1
++++++ TIME: 2007/07/14 21:57:00 + 0.000 STEP:    159/    240 WCLOCK:      98.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7295,7 +7295,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 21:58:30 + 0.000 STEP:    160/    240 WCLOCK:      99.4
++++++ TIME: 2007/07/14 21:58:30 + 0.000 STEP:    160/    240 WCLOCK:      98.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7322,7 +7322,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ atmosphere / physics / pbl / MYNN
 +++++ output history
 
-+++++ TIME: 2007/07/14 22:00:00 + 0.000 STEP:    161/    240 WCLOCK:     101.9
++++++ TIME: 2007/07/14 22:00:00 + 0.000 STEP:    161/    240 WCLOCK:     101.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7346,7 +7346,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:01:30 + 0.000 STEP:    162/    240 WCLOCK:     102.3
++++++ TIME: 2007/07/14 22:01:30 + 0.000 STEP:    162/    240 WCLOCK:     102.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7370,7 +7370,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:03:00 + 0.000 STEP:    163/    240 WCLOCK:     102.7
++++++ TIME: 2007/07/14 22:03:00 + 0.000 STEP:    163/    240 WCLOCK:     102.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7394,7 +7394,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:04:30 + 0.000 STEP:    164/    240 WCLOCK:     103.1
++++++ TIME: 2007/07/14 22:04:30 + 0.000 STEP:    164/    240 WCLOCK:     102.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7418,7 +7418,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:06:00 + 0.000 STEP:    165/    240 WCLOCK:     103.6
++++++ TIME: 2007/07/14 22:06:00 + 0.000 STEP:    165/    240 WCLOCK:     103.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7442,7 +7442,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:07:30 + 0.000 STEP:    166/    240 WCLOCK:     104.0
++++++ TIME: 2007/07/14 22:07:30 + 0.000 STEP:    166/    240 WCLOCK:     103.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7466,7 +7466,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:09:00 + 0.000 STEP:    167/    240 WCLOCK:     104.4
++++++ TIME: 2007/07/14 22:09:00 + 0.000 STEP:    167/    240 WCLOCK:     104.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7490,7 +7490,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:10:30 + 0.000 STEP:    168/    240 WCLOCK:     104.8
++++++ TIME: 2007/07/14 22:10:30 + 0.000 STEP:    168/    240 WCLOCK:     104.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7514,7 +7514,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:12:00 + 0.000 STEP:    169/    240 WCLOCK:     105.2
++++++ TIME: 2007/07/14 22:12:00 + 0.000 STEP:    169/    240 WCLOCK:     104.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7538,7 +7538,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:13:30 + 0.000 STEP:    170/    240 WCLOCK:     105.7
++++++ TIME: 2007/07/14 22:13:30 + 0.000 STEP:    170/    240 WCLOCK:     105.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7564,7 +7564,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:15:00 + 0.000 STEP:    171/    240 WCLOCK:     109.0
++++++ TIME: 2007/07/14 22:15:00 + 0.000 STEP:    171/    240 WCLOCK:     107.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7588,7 +7588,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:16:30 + 0.000 STEP:    172/    240 WCLOCK:     109.4
++++++ TIME: 2007/07/14 22:16:30 + 0.000 STEP:    172/    240 WCLOCK:     108.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7612,7 +7612,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:18:00 + 0.000 STEP:    173/    240 WCLOCK:     109.9
++++++ TIME: 2007/07/14 22:18:00 + 0.000 STEP:    173/    240 WCLOCK:     108.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7636,7 +7636,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:19:30 + 0.000 STEP:    174/    240 WCLOCK:     110.3
++++++ TIME: 2007/07/14 22:19:30 + 0.000 STEP:    174/    240 WCLOCK:     108.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7660,7 +7660,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:21:00 + 0.000 STEP:    175/    240 WCLOCK:     110.7
++++++ TIME: 2007/07/14 22:21:00 + 0.000 STEP:    175/    240 WCLOCK:     109.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7684,7 +7684,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:22:30 + 0.000 STEP:    176/    240 WCLOCK:     111.1
++++++ TIME: 2007/07/14 22:22:30 + 0.000 STEP:    176/    240 WCLOCK:     109.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7708,7 +7708,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:24:00 + 0.000 STEP:    177/    240 WCLOCK:     111.5
++++++ TIME: 2007/07/14 22:24:00 + 0.000 STEP:    177/    240 WCLOCK:     109.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7732,7 +7732,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:25:30 + 0.000 STEP:    178/    240 WCLOCK:     112.0
++++++ TIME: 2007/07/14 22:25:30 + 0.000 STEP:    178/    240 WCLOCK:     110.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7756,7 +7756,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:27:00 + 0.000 STEP:    179/    240 WCLOCK:     112.4
++++++ TIME: 2007/07/14 22:27:00 + 0.000 STEP:    179/    240 WCLOCK:     110.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7780,7 +7780,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:28:30 + 0.000 STEP:    180/    240 WCLOCK:     112.8
++++++ TIME: 2007/07/14 22:28:30 + 0.000 STEP:    180/    240 WCLOCK:     111.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7806,7 +7806,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:30:00 + 0.000 STEP:    181/    240 WCLOCK:     116.1
++++++ TIME: 2007/07/14 22:30:00 + 0.000 STEP:    181/    240 WCLOCK:     114.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7830,7 +7830,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:31:30 + 0.000 STEP:    182/    240 WCLOCK:     116.5
++++++ TIME: 2007/07/14 22:31:30 + 0.000 STEP:    182/    240 WCLOCK:     114.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7854,7 +7854,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:33:00 + 0.000 STEP:    183/    240 WCLOCK:     116.9
++++++ TIME: 2007/07/14 22:33:00 + 0.000 STEP:    183/    240 WCLOCK:     115.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7878,7 +7878,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:34:30 + 0.000 STEP:    184/    240 WCLOCK:     117.4
++++++ TIME: 2007/07/14 22:34:30 + 0.000 STEP:    184/    240 WCLOCK:     115.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7902,7 +7902,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:36:00 + 0.000 STEP:    185/    240 WCLOCK:     117.8
++++++ TIME: 2007/07/14 22:36:00 + 0.000 STEP:    185/    240 WCLOCK:     116.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7926,7 +7926,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:37:30 + 0.000 STEP:    186/    240 WCLOCK:     118.2
++++++ TIME: 2007/07/14 22:37:30 + 0.000 STEP:    186/    240 WCLOCK:     116.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7950,7 +7950,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:39:00 + 0.000 STEP:    187/    240 WCLOCK:     118.6
++++++ TIME: 2007/07/14 22:39:00 + 0.000 STEP:    187/    240 WCLOCK:     116.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7974,7 +7974,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:40:30 + 0.000 STEP:    188/    240 WCLOCK:     119.0
++++++ TIME: 2007/07/14 22:40:30 + 0.000 STEP:    188/    240 WCLOCK:     117.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -7998,7 +7998,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:42:00 + 0.000 STEP:    189/    240 WCLOCK:     119.5
++++++ TIME: 2007/07/14 22:42:00 + 0.000 STEP:    189/    240 WCLOCK:     117.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8022,7 +8022,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:43:30 + 0.000 STEP:    190/    240 WCLOCK:     119.8
++++++ TIME: 2007/07/14 22:43:30 + 0.000 STEP:    190/    240 WCLOCK:     118.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8048,7 +8048,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:45:00 + 0.000 STEP:    191/    240 WCLOCK:     123.0
++++++ TIME: 2007/07/14 22:45:00 + 0.000 STEP:    191/    240 WCLOCK:     121.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8072,7 +8072,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:46:30 + 0.000 STEP:    192/    240 WCLOCK:     123.5
++++++ TIME: 2007/07/14 22:46:30 + 0.000 STEP:    192/    240 WCLOCK:     121.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8096,7 +8096,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:48:00 + 0.000 STEP:    193/    240 WCLOCK:     123.9
++++++ TIME: 2007/07/14 22:48:00 + 0.000 STEP:    193/    240 WCLOCK:     122.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8120,7 +8120,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:49:30 + 0.000 STEP:    194/    240 WCLOCK:     124.4
++++++ TIME: 2007/07/14 22:49:30 + 0.000 STEP:    194/    240 WCLOCK:     122.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8144,7 +8144,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:51:00 + 0.000 STEP:    195/    240 WCLOCK:     124.8
++++++ TIME: 2007/07/14 22:51:00 + 0.000 STEP:    195/    240 WCLOCK:     123.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8168,7 +8168,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:52:30 + 0.000 STEP:    196/    240 WCLOCK:     125.2
++++++ TIME: 2007/07/14 22:52:30 + 0.000 STEP:    196/    240 WCLOCK:     123.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8192,7 +8192,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:54:00 + 0.000 STEP:    197/    240 WCLOCK:     125.7
++++++ TIME: 2007/07/14 22:54:00 + 0.000 STEP:    197/    240 WCLOCK:     123.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8216,7 +8216,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:55:30 + 0.000 STEP:    198/    240 WCLOCK:     126.1
++++++ TIME: 2007/07/14 22:55:30 + 0.000 STEP:    198/    240 WCLOCK:     124.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8240,7 +8240,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:57:00 + 0.000 STEP:    199/    240 WCLOCK:     126.6
++++++ TIME: 2007/07/14 22:57:00 + 0.000 STEP:    199/    240 WCLOCK:     124.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8264,7 +8264,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 22:58:30 + 0.000 STEP:    200/    240 WCLOCK:     127.0
++++++ TIME: 2007/07/14 22:58:30 + 0.000 STEP:    200/    240 WCLOCK:     125.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8291,7 +8291,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ atmosphere / physics / pbl / MYNN
 +++++ output history
 
-+++++ TIME: 2007/07/14 23:00:00 + 0.000 STEP:    201/    240 WCLOCK:     129.9
++++++ TIME: 2007/07/14 23:00:00 + 0.000 STEP:    201/    240 WCLOCK:     128.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8315,7 +8315,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:01:30 + 0.000 STEP:    202/    240 WCLOCK:     130.4
++++++ TIME: 2007/07/14 23:01:30 + 0.000 STEP:    202/    240 WCLOCK:     128.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8339,7 +8339,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:03:00 + 0.000 STEP:    203/    240 WCLOCK:     130.8
++++++ TIME: 2007/07/14 23:03:00 + 0.000 STEP:    203/    240 WCLOCK:     128.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8363,7 +8363,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:04:30 + 0.000 STEP:    204/    240 WCLOCK:     131.2
++++++ TIME: 2007/07/14 23:04:30 + 0.000 STEP:    204/    240 WCLOCK:     129.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8387,7 +8387,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:06:00 + 0.000 STEP:    205/    240 WCLOCK:     131.7
++++++ TIME: 2007/07/14 23:06:00 + 0.000 STEP:    205/    240 WCLOCK:     129.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8411,7 +8411,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:07:30 + 0.000 STEP:    206/    240 WCLOCK:     132.1
++++++ TIME: 2007/07/14 23:07:30 + 0.000 STEP:    206/    240 WCLOCK:     129.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8435,7 +8435,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:09:00 + 0.000 STEP:    207/    240 WCLOCK:     132.5
++++++ TIME: 2007/07/14 23:09:00 + 0.000 STEP:    207/    240 WCLOCK:     130.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8459,7 +8459,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:10:30 + 0.000 STEP:    208/    240 WCLOCK:     132.9
++++++ TIME: 2007/07/14 23:10:30 + 0.000 STEP:    208/    240 WCLOCK:     130.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8483,7 +8483,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:12:00 + 0.000 STEP:    209/    240 WCLOCK:     133.4
++++++ TIME: 2007/07/14 23:12:00 + 0.000 STEP:    209/    240 WCLOCK:     131.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8507,7 +8507,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:13:30 + 0.000 STEP:    210/    240 WCLOCK:     133.8
++++++ TIME: 2007/07/14 23:13:30 + 0.000 STEP:    210/    240 WCLOCK:     131.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8533,7 +8533,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:15:00 + 0.000 STEP:    211/    240 WCLOCK:     137.1
++++++ TIME: 2007/07/14 23:15:00 + 0.000 STEP:    211/    240 WCLOCK:     133.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8557,7 +8557,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:16:30 + 0.000 STEP:    212/    240 WCLOCK:     137.5
++++++ TIME: 2007/07/14 23:16:30 + 0.000 STEP:    212/    240 WCLOCK:     134.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8581,7 +8581,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:18:00 + 0.000 STEP:    213/    240 WCLOCK:     138.0
++++++ TIME: 2007/07/14 23:18:00 + 0.000 STEP:    213/    240 WCLOCK:     134.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8605,7 +8605,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:19:30 + 0.000 STEP:    214/    240 WCLOCK:     138.4
++++++ TIME: 2007/07/14 23:19:30 + 0.000 STEP:    214/    240 WCLOCK:     135.0
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8629,7 +8629,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:21:00 + 0.000 STEP:    215/    240 WCLOCK:     138.8
++++++ TIME: 2007/07/14 23:21:00 + 0.000 STEP:    215/    240 WCLOCK:     135.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8653,7 +8653,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:22:30 + 0.000 STEP:    216/    240 WCLOCK:     139.2
++++++ TIME: 2007/07/14 23:22:30 + 0.000 STEP:    216/    240 WCLOCK:     135.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8677,7 +8677,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:24:00 + 0.000 STEP:    217/    240 WCLOCK:     139.7
++++++ TIME: 2007/07/14 23:24:00 + 0.000 STEP:    217/    240 WCLOCK:     136.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8701,7 +8701,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:25:30 + 0.000 STEP:    218/    240 WCLOCK:     140.1
++++++ TIME: 2007/07/14 23:25:30 + 0.000 STEP:    218/    240 WCLOCK:     136.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8725,7 +8725,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:27:00 + 0.000 STEP:    219/    240 WCLOCK:     140.5
++++++ TIME: 2007/07/14 23:27:00 + 0.000 STEP:    219/    240 WCLOCK:     137.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8749,7 +8749,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:28:30 + 0.000 STEP:    220/    240 WCLOCK:     140.9
++++++ TIME: 2007/07/14 23:28:30 + 0.000 STEP:    220/    240 WCLOCK:     137.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8775,7 +8775,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:30:00 + 0.000 STEP:    221/    240 WCLOCK:     144.3
++++++ TIME: 2007/07/14 23:30:00 + 0.000 STEP:    221/    240 WCLOCK:     141.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8799,7 +8799,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:31:30 + 0.000 STEP:    222/    240 WCLOCK:     144.8
++++++ TIME: 2007/07/14 23:31:30 + 0.000 STEP:    222/    240 WCLOCK:     141.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8823,7 +8823,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:33:00 + 0.000 STEP:    223/    240 WCLOCK:     145.2
++++++ TIME: 2007/07/14 23:33:00 + 0.000 STEP:    223/    240 WCLOCK:     141.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8847,7 +8847,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:34:30 + 0.000 STEP:    224/    240 WCLOCK:     145.7
++++++ TIME: 2007/07/14 23:34:30 + 0.000 STEP:    224/    240 WCLOCK:     142.3
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8871,7 +8871,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:36:00 + 0.000 STEP:    225/    240 WCLOCK:     146.1
++++++ TIME: 2007/07/14 23:36:00 + 0.000 STEP:    225/    240 WCLOCK:     142.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8895,7 +8895,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:37:30 + 0.000 STEP:    226/    240 WCLOCK:     146.6
++++++ TIME: 2007/07/14 23:37:30 + 0.000 STEP:    226/    240 WCLOCK:     143.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8919,7 +8919,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:39:00 + 0.000 STEP:    227/    240 WCLOCK:     147.0
++++++ TIME: 2007/07/14 23:39:00 + 0.000 STEP:    227/    240 WCLOCK:     143.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8943,7 +8943,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:40:30 + 0.000 STEP:    228/    240 WCLOCK:     147.5
++++++ TIME: 2007/07/14 23:40:30 + 0.000 STEP:    228/    240 WCLOCK:     144.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8967,7 +8967,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:42:00 + 0.000 STEP:    229/    240 WCLOCK:     148.0
++++++ TIME: 2007/07/14 23:42:00 + 0.000 STEP:    229/    240 WCLOCK:     144.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -8991,7 +8991,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:43:30 + 0.000 STEP:    230/    240 WCLOCK:     148.4
++++++ TIME: 2007/07/14 23:43:30 + 0.000 STEP:    230/    240 WCLOCK:     144.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9017,7 +9017,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:45:00 + 0.000 STEP:    231/    240 WCLOCK:     151.1
++++++ TIME: 2007/07/14 23:45:00 + 0.000 STEP:    231/    240 WCLOCK:     148.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9041,7 +9041,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:46:30 + 0.000 STEP:    232/    240 WCLOCK:     151.4
++++++ TIME: 2007/07/14 23:46:30 + 0.000 STEP:    232/    240 WCLOCK:     148.6
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9065,7 +9065,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:48:00 + 0.000 STEP:    233/    240 WCLOCK:     151.7
++++++ TIME: 2007/07/14 23:48:00 + 0.000 STEP:    233/    240 WCLOCK:     149.1
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9089,7 +9089,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:49:30 + 0.000 STEP:    234/    240 WCLOCK:     152.1
++++++ TIME: 2007/07/14 23:49:30 + 0.000 STEP:    234/    240 WCLOCK:     149.5
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9113,7 +9113,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:51:00 + 0.000 STEP:    235/    240 WCLOCK:     152.6
++++++ TIME: 2007/07/14 23:51:00 + 0.000 STEP:    235/    240 WCLOCK:     149.9
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9137,7 +9137,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:52:30 + 0.000 STEP:    236/    240 WCLOCK:     153.0
++++++ TIME: 2007/07/14 23:52:30 + 0.000 STEP:    236/    240 WCLOCK:     150.4
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9161,7 +9161,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:54:00 + 0.000 STEP:    237/    240 WCLOCK:     153.4
++++++ TIME: 2007/07/14 23:54:00 + 0.000 STEP:    237/    240 WCLOCK:     150.8
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9185,7 +9185,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:55:30 + 0.000 STEP:    238/    240 WCLOCK:     153.8
++++++ TIME: 2007/07/14 23:55:30 + 0.000 STEP:    238/    240 WCLOCK:     151.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9209,7 +9209,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:57:00 + 0.000 STEP:    239/    240 WCLOCK:     154.3
++++++ TIME: 2007/07/14 23:57:00 + 0.000 STEP:    239/    240 WCLOCK:     151.7
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9233,7 +9233,7 @@ INFO  [ATMOS_PHY_CP_kf_tendency] KF Convection Check
 +++++ urban / dynamics / Kusaka01
 +++++ atmosphere / physics / pbl / MYNN
 
-+++++ TIME: 2007/07/14 23:58:30 + 0.000 STEP:    240/    240 WCLOCK:     154.7
++++++ TIME: 2007/07/14 23:58:30 + 0.000 STEP:    240/    240 WCLOCK:     152.2
 +++++ land / dynamics / bucket
 +++++ atmosphere / dynamics
 
@@ -9594,67 +9594,67 @@ INFO  [LAND_GRID_CARTESC_finalize] Finalize
 INFO  [URBAN_GRID_CARTESC_finalize] Finalize
 
 INFO  [PROF_rapreport] Computational Time Report (Rap level =  2)
- INIT Initialize                  lev= 0: T(avg)=     0.186, T(max)=     0.186[     1], T(min)=     0.186[     4], N=        1
- INIT ATM_Boundary                lev= 2: T(avg)=     0.059, T(max)=     0.059[     1], T(min)=     0.059[     4], N=        1
+ INIT Initialize                  lev= 0: T(avg)=     0.183, T(max)=     0.183[     4], T(min)=     0.183[     3], N=        1
+ INIT ATM_Boundary                lev= 2: T(avg)=     0.062, T(max)=     0.062[     1], T(min)=     0.062[     4], N=        1
  INIT ATM_Refstate                lev= 2: T(avg)=     0.001, T(max)=     0.001[     1], T(min)=     0.001[     4], N=        1
- INIT COMM_Bcast                  lev= 2: T(avg)=     0.000, T(max)=     0.000[     2], T(min)=     0.000[     1], N=        1
+ INIT COMM_Bcast                  lev= 2: T(avg)=     0.000, T(max)=     0.000[     4], T(min)=     0.000[     1], N=        1
  INIT COMM_init_pers              lev= 2: T(avg)=     0.000, T(max)=     0.001[     1], T(min)=     0.000[     4], N=       63
  INIT COMM_vars                   lev= 2: T(avg)=     0.001, T(max)=     0.001[     4], T(min)=     0.001[     1], N=       49
  INIT COMM_wait                   lev= 2: T(avg)=     0.000, T(max)=     0.000[     2], T(min)=     0.000[     1], N=       49
- INIT FILE                        lev= 2: T(avg)=     0.014, T(max)=     0.021[     4], T(min)=     0.012[     3], N=        7
- INIT FILE_HISTORY_OUT            lev= 2: T(avg)=     0.000, T(max)=     0.000[     2], T(min)=     0.000[     4], N=      290
- INIT FILE_Read                   lev= 2: T(avg)=     0.042, T(max)=     0.042[     1], T(min)=     0.041[     3], N=       60
- INIT FILE_Write                  lev= 2: T(avg)=     0.015, T(max)=     0.015[     3], T(min)=     0.015[     4], N=       29
- MAIN Main_Loop                   lev= 0: T(avg)=   157.272, T(max)=   157.272[     4], T(min)=   157.272[     3], N=        1
- MAIN ATM_Cumulus                 lev= 1: T(avg)=     2.830, T(max)=     2.835[     4], T(min)=     2.829[     1], N=      241
- MAIN ATM_Diag                    lev= 1: T(avg)=     3.513, T(max)=     3.513[     4], T(min)=     3.513[     1], N=      726
- MAIN ATM_Dynamics                lev= 1: T(avg)=    37.896, T(max)=    37.903[     4], T(min)=    37.888[     2], N=      240
- MAIN ATM_History                 lev= 1: T(avg)=     0.047, T(max)=     0.047[     4], T(min)=     0.046[     2], N=      482
- MAIN ATM_Microphysics            lev= 1: T(avg)=    23.409, T(max)=    23.473[     4], T(min)=    23.377[     2], N=      481
- MAIN ATM_PBL                     lev= 1: T(avg)=     5.303, T(max)=     5.308[     4], T(min)=     5.299[     2], N=      241
- MAIN ATM_Radiation               lev= 1: T(avg)=    62.830, T(max)=    62.851[     2], T(min)=    62.817[     3], N=      241
- MAIN ATM_Restart                 lev= 1: T(avg)=     0.085, T(max)=     0.086[     1], T(min)=     0.085[     3], N=       13
- MAIN ATM_SurfaceFlux             lev= 1: T(avg)=     0.164, T(max)=     0.167[     4], T(min)=     0.162[     2], N=      241
- MAIN ATM_Turbulence              lev= 1: T(avg)=     8.464, T(max)=     8.490[     4], T(min)=     8.450[     1], N=      241
- MAIN Debug                       lev= 1: T(avg)=     0.182, T(max)=     0.201[     4], T(min)=     0.164[     2], N=    11235
- MAIN LND_CalcTend                lev= 1: T(avg)=     2.405, T(max)=     4.153[     3], T(min)=     0.288[     2], N=      241
+ INIT FILE                        lev= 2: T(avg)=     0.013, T(max)=     0.013[     3], T(min)=     0.013[     1], N=        7
+ INIT FILE_HISTORY_OUT            lev= 2: T(avg)=     0.000, T(max)=     0.000[     3], T(min)=     0.000[     2], N=      290
+ INIT FILE_Read                   lev= 2: T(avg)=     0.043, T(max)=     0.044[     2], T(min)=     0.042[     3], N=       60
+ INIT FILE_Write                  lev= 2: T(avg)=     0.007, T(max)=     0.007[     2], T(min)=     0.007[     3], N=       29
+ MAIN Main_Loop                   lev= 0: T(avg)=   155.970, T(max)=   155.970[     3], T(min)=   155.970[     2], N=        1
+ MAIN ATM_Cumulus                 lev= 1: T(avg)=     2.637, T(max)=     2.640[     2], T(min)=     2.632[     4], N=      241
+ MAIN ATM_Diag                    lev= 1: T(avg)=     3.442, T(max)=     3.443[     4], T(min)=     3.442[     1], N=      726
+ MAIN ATM_Dynamics                lev= 1: T(avg)=    36.758, T(max)=    36.762[     1], T(min)=    36.752[     2], N=      240
+ MAIN ATM_History                 lev= 1: T(avg)=     0.048, T(max)=     0.048[     4], T(min)=     0.047[     2], N=      482
+ MAIN ATM_Microphysics            lev= 1: T(avg)=    23.106, T(max)=    23.142[     4], T(min)=    23.083[     1], N=      481
+ MAIN ATM_PBL                     lev= 1: T(avg)=     5.300, T(max)=     5.302[     3], T(min)=     5.298[     2], N=      241
+ MAIN ATM_Radiation               lev= 1: T(avg)=    63.806, T(max)=    63.820[     3], T(min)=    63.800[     1], N=      241
+ MAIN ATM_Restart                 lev= 1: T(avg)=     0.089, T(max)=     0.089[     1], T(min)=     0.089[     4], N=       13
+ MAIN ATM_SurfaceFlux             lev= 1: T(avg)=     0.163, T(max)=     0.164[     2], T(min)=     0.162[     4], N=      241
+ MAIN ATM_Turbulence              lev= 1: T(avg)=     8.018, T(max)=     8.024[     4], T(min)=     8.013[     3], N=      241
+ MAIN Debug                       lev= 1: T(avg)=     0.181, T(max)=     0.191[     3], T(min)=     0.165[     2], N=    11235
+ MAIN LND_CalcTend                lev= 1: T(avg)=     2.364, T(max)=     4.335[     3], T(min)=     0.285[     2], N=      241
  MAIN LND_History                 lev= 1: T(avg)=     0.021, T(max)=     0.021[     1], T(min)=     0.021[     2], N=      241
- MAIN LND_Restart                 lev= 1: T(avg)=     0.003, T(max)=     0.003[     1], T(min)=     0.003[     3], N=       13
- MAIN LND_Update                  lev= 1: T(avg)=     0.098, T(max)=     0.098[     2], T(min)=     0.098[     4], N=      240
- MAIN OCN_CalcTend                lev= 1: T(avg)=     2.298, T(max)=     2.948[     1], T(min)=     1.868[     2], N=      241
- MAIN OCN_History                 lev= 1: T(avg)=     0.016, T(max)=     0.016[     4], T(min)=     0.016[     3], N=      241
- MAIN OCN_Restart                 lev= 1: T(avg)=     0.786, T(max)=     0.786[     4], T(min)=     0.786[     3], N=       13
- MAIN OCN_Update                  lev= 1: T(avg)=     0.034, T(max)=     0.034[     1], T(min)=     0.034[     4], N=      240
- MAIN URB_CalcTend                lev= 1: T(avg)=     1.060, T(max)=     1.063[     4], T(min)=     1.055[     2], N=      241
- MAIN URB_History                 lev= 1: T(avg)=     0.020, T(max)=     0.020[     4], T(min)=     0.020[     2], N=      241
- MAIN URB_Restart                 lev= 1: T(avg)=     0.006, T(max)=     0.006[     1], T(min)=     0.006[     3], N=       13
- MAIN URB_Update                  lev= 1: T(avg)=     0.043, T(max)=     0.043[     4], T(min)=     0.043[     2], N=      240
- MAIN ATM_Boundary                lev= 2: T(avg)=     0.633, T(max)=     0.633[     1], T(min)=     0.633[     3], N=      720
- MAIN ATM_Refstate                lev= 2: T(avg)=     0.104, T(max)=     0.105[     1], T(min)=     0.104[     3], N=      241
- MAIN ATM_SfcExch                 lev= 2: T(avg)=     0.240, T(max)=     0.248[     4], T(min)=     0.235[     2], N=      724
- MAIN COMM_Allreduce              lev= 2: T(avg)=     0.001, T(max)=     0.001[     2], T(min)=     0.001[     3], N=      249
+ MAIN LND_Restart                 lev= 1: T(avg)=     0.003, T(max)=     0.003[     1], T(min)=     0.003[     2], N=       13
+ MAIN LND_Update                  lev= 1: T(avg)=     0.100, T(max)=     0.100[     1], T(min)=     0.100[     2], N=      240
+ MAIN OCN_CalcTend                lev= 1: T(avg)=     2.239, T(max)=     2.758[     1], T(min)=     1.871[     2], N=      241
+ MAIN OCN_History                 lev= 1: T(avg)=     0.015, T(max)=     0.015[     1], T(min)=     0.015[     3], N=      241
+ MAIN OCN_Restart                 lev= 1: T(avg)=     0.788, T(max)=     0.788[     3], T(min)=     0.788[     1], N=       13
+ MAIN OCN_Update                  lev= 1: T(avg)=     0.034, T(max)=     0.034[     2], T(min)=     0.034[     4], N=      240
+ MAIN URB_CalcTend                lev= 1: T(avg)=     0.979, T(max)=     0.982[     3], T(min)=     0.975[     2], N=      241
+ MAIN URB_History                 lev= 1: T(avg)=     0.019, T(max)=     0.019[     3], T(min)=     0.019[     4], N=      241
+ MAIN URB_Restart                 lev= 1: T(avg)=     0.005, T(max)=     0.005[     1], T(min)=     0.005[     2], N=       13
+ MAIN URB_Update                  lev= 1: T(avg)=     0.042, T(max)=     0.042[     1], T(min)=     0.042[     2], N=      240
+ MAIN ATM_Boundary                lev= 2: T(avg)=     0.626, T(max)=     0.626[     1], T(min)=     0.626[     2], N=      720
+ MAIN ATM_Refstate                lev= 2: T(avg)=     0.106, T(max)=     0.106[     1], T(min)=     0.106[     3], N=      241
+ MAIN ATM_SfcExch                 lev= 2: T(avg)=     0.236, T(max)=     0.238[     4], T(min)=     0.232[     1], N=      724
+ MAIN COMM_Allreduce              lev= 2: T(avg)=     0.001, T(max)=     0.001[     1], T(min)=     0.001[     4], N=      249
  MAIN COMM_Bcast                  lev= 2: T(avg)=     0.003, T(max)=     0.003[     1], T(min)=     0.003[     4], N=      243
- MAIN COMM_vars                   lev= 2: T(avg)=     0.258, T(max)=     0.273[     4], T(min)=     0.246[     1], N=    21309
- MAIN COMM_vars_pers              lev= 2: T(avg)=     0.228, T(max)=     0.240[     4], T(min)=     0.218[     1], N=    18480
- MAIN COMM_wait                   lev= 2: T(avg)=     0.090, T(max)=     0.102[     4], T(min)=     0.082[     1], N=    21309
- MAIN COMM_wait_pers              lev= 2: T(avg)=     0.087, T(max)=     0.100[     4], T(min)=     0.079[     1], N=    18480
- MAIN DYN_Large_Boundary          lev= 2: T(avg)=     0.004, T(max)=     0.004[     4], T(min)=     0.003[     1], N=      240
- MAIN DYN_Large_Numfilter         lev= 2: T(avg)=     0.748, T(max)=     0.783[     4], T(min)=     0.722[     2], N=     2160
- MAIN DYN_Large_Preparation       lev= 2: T(avg)=     0.718, T(max)=     0.795[     4], T(min)=     0.678[     2], N=      240
- MAIN DYN_Large_Tendency          lev= 2: T(avg)=     1.709, T(max)=     1.714[     4], T(min)=     1.706[     2], N=      720
- MAIN DYN_Short_Tinteg            lev= 2: T(avg)=    22.088, T(max)=    22.371[     4], T(min)=    21.920[     2], N=      480
- MAIN DYN_Tinteg                  lev= 2: T(avg)=    37.124, T(max)=    37.135[     4], T(min)=    37.117[     2], N=      240
- MAIN DYN_Tracer_Tinteg           lev= 2: T(avg)=     9.134, T(max)=     9.405[     4], T(min)=     8.961[     2], N=     1680
- MAIN FILE                        lev= 2: T(avg)=     1.326, T(max)=     1.632[     4], T(min)=     1.163[     3], N=      249
- MAIN FILE_HISTORY_OUT            lev= 2: T(avg)=     1.094, T(max)=     1.098[     4], T(min)=     1.092[     2], N=    64734
- MAIN FILE_Read                   lev= 2: T(avg)=     0.015, T(max)=     0.015[     2], T(min)=     0.015[     1], N=       92
- MAIN FILE_Write                  lev= 2: T(avg)=     0.827, T(max)=     0.848[     4], T(min)=     0.811[     3], N=      974
- MAIN MP_Precipitation            lev= 2: T(avg)=    11.999, T(max)=    13.687[     4], T(min)=    11.028[     2], N=      241
- MAIN MP_Saturation_adjustment    lev= 2: T(avg)=     1.015, T(max)=     1.444[     4], T(min)=     0.723[     3], N=      241
- FIN All                          lev= 0: T(avg)=     0.009, T(max)=     0.009[     2], T(min)=     0.009[     3], N=        1
- FIN File                         lev= 1: T(avg)=     0.006, T(max)=     0.006[     4], T(min)=     0.006[     1], N=        1
- FIN Monit                        lev= 1: T(avg)=     0.000, T(max)=     0.000[     3], T(min)=     0.000[     1], N=        1
- FIN FILE                         lev= 2: T(avg)=     0.006, T(max)=     0.006[     4], T(min)=     0.006[     3], N=        2
+ MAIN COMM_vars                   lev= 2: T(avg)=     0.267, T(max)=     0.273[     3], T(min)=     0.260[     1], N=    21309
+ MAIN COMM_vars_pers              lev= 2: T(avg)=     0.228, T(max)=     0.237[     3], T(min)=     0.219[     1], N=    18480
+ MAIN COMM_wait                   lev= 2: T(avg)=     0.089, T(max)=     0.097[     4], T(min)=     0.080[     1], N=    21309
+ MAIN COMM_wait_pers              lev= 2: T(avg)=     0.085, T(max)=     0.092[     4], T(min)=     0.077[     1], N=    18480
+ MAIN DYN_Large_Boundary          lev= 2: T(avg)=     0.004, T(max)=     0.004[     2], T(min)=     0.004[     1], N=      240
+ MAIN DYN_Large_Numfilter         lev= 2: T(avg)=     0.736, T(max)=     0.764[     4], T(min)=     0.710[     1], N=     2160
+ MAIN DYN_Large_Preparation       lev= 2: T(avg)=     0.745, T(max)=     0.804[     4], T(min)=     0.698[     2], N=      240
+ MAIN DYN_Large_Tendency          lev= 2: T(avg)=     1.659, T(max)=     1.661[     4], T(min)=     1.658[     1], N=      720
+ MAIN DYN_Short_Tinteg            lev= 2: T(avg)=    21.536, T(max)=    21.739[     4], T(min)=    21.392[     1], N=      480
+ MAIN DYN_Tinteg                  lev= 2: T(avg)=    35.989, T(max)=    36.002[     4], T(min)=    35.983[     2], N=      240
+ MAIN DYN_Tracer_Tinteg           lev= 2: T(avg)=     8.733, T(max)=     8.893[     4], T(min)=     8.615[     1], N=     1680
+ MAIN FILE                        lev= 2: T(avg)=     1.350, T(max)=     1.586[     3], T(min)=     1.193[     2], N=      249
+ MAIN FILE_HISTORY_OUT            lev= 2: T(avg)=     1.041, T(max)=     1.042[     3], T(min)=     1.039[     2], N=    64734
+ MAIN FILE_Read                   lev= 2: T(avg)=     0.016, T(max)=     0.016[     4], T(min)=     0.015[     3], N=       92
+ MAIN FILE_Write                  lev= 2: T(avg)=     0.828, T(max)=     0.851[     3], T(min)=     0.813[     4], N=      974
+ MAIN MP_Precipitation            lev= 2: T(avg)=    11.685, T(max)=    12.870[     4], T(min)=    10.899[     1], N=      241
+ MAIN MP_Saturation_adjustment    lev= 2: T(avg)=     0.998, T(max)=     1.372[     4], T(min)=     0.763[     3], N=      241
+ FIN All                          lev= 0: T(avg)=     0.011, T(max)=     0.011[     3], T(min)=     0.011[     4], N=        1
+ FIN File                         lev= 1: T(avg)=     0.008, T(max)=     0.008[     3], T(min)=     0.008[     1], N=        1
+ FIN Monit                        lev= 1: T(avg)=     0.000, T(max)=     0.000[     3], T(min)=     0.000[     4], N=        1
+ FIN FILE                         lev= 2: T(avg)=     0.006, T(max)=     0.007[     3], T(min)=     0.005[     4], N=        2
  FIN FILE_Write                   lev= 2: T(avg)=     0.000, T(max)=     0.000[     1], T(min)=     0.000[     4], N=        1
 
 +++++ Closing LOG file
