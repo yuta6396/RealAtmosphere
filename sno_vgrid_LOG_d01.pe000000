@@ -1,0 +1,685 @@
+ 
+                                                -+++++++++;              
+                                              ++++++++++++++=            
+                                            ++++++++++++++++++-          
+                                           +++++++++++++++++++++         
+                                         .+++++++++++++++++++++++        
+                                         +++++++++++++++++++++++++       
+                                        +++++++++++++++++++++++++++      
+                                       =++++++=x######+++++++++++++;     
+                                      .++++++X####XX####++++++++++++     
+          =+xxx=,               ++++  +++++=##+       .###++++++++++-    
+       ,xxxxxxxxxx-            +++++.+++++=##           .##++++++++++    
+      xxxxxxxxxxxxx           -+++x#;+++++#+              ##+++++++++.   
+     xxxxxxxx##xxxx,          ++++# +++++XX                #+++++++++-   
+    xxxxxxx####+xx+x         ++++#.++++++#                  #+++++++++   
+   +xxxxxX#X   #Xx#=        =+++#x=++++=#.                  x=++++++++   
+   xxxxxx#,    x###        .++++#,+++++#=                    x++++++++   
+  xxxxxx#.                 ++++# +++++x#                     #++++++++   
+  xxxxxx+                 ++++#-+++++=#                      #++++++++   
+ ,xxxxxX                 -+++XX-+++++#,                      +++++++++   
+ =xxxxxX                .++++#.+++++#x                       -++++++++   
+ +xxxxx=                ++++#.++++++#                        ++++++++#   
+ xxxxxx;               ++++#+=++++=#                         ++++++++#   
+ xxxxxxx              ,+++x#,+++++#-                        ;++++++++-   
+ #xxxxxx              +++=# +++++xX                         ++++++++#    
+ xxxxxxxx            ++++#-+++++=#                         +++++++++X    
+ -+xxxxxx+          ++++X#-++++=#.            -++;        =++++++++#     
+  #xxxxxxxx.      .+++++# +++++#x            =++++-      +++++++++XX     
+  #xxxxxxxxxx=--=++++++#.++++++#             ++++++    -+++++++++x#      
+   #+xxxxxxxxxx+++++++#x=++++=#              ++++++;=+++++++++++x#       
+   =#+xxxxxxxx+++++++##,+++++#=             =++++++++++++++++++##.       
+    X#xxxxxxxx++++++## +++++x#              ;x++++++++++++++++##.        
+     x##+xxxx+++++x## +++++=#                ##++++++++++++x##X          
+      ,###Xx+++x###x -++++=#,                .####x+++++X####.           
+        -########+   -#####x                   .X#########+.             
+            .,.      ......                         .,.                  
+                                                                         
+     .X#######     +###-        =###+           ###x         x########   
+    .#########    ######X      #######         ####        .#########x   
+    ####+++++=   X#######.    -#######x       .###;        ####x+++++.   
+    ###          ###= ####    #### x###       ####        -###.          
+   .###         ####   ###+  X###   ###X     =###.        ####           
+    ###-       ;###,        .###+   -###     ####        x##########+    
+    +####x     ####         ####     ####   ####         ###########.    
+     x######. =###          ###,     .###-  ###+        x###--------     
+       =##### X###         -###       #### ,###         ####             
+         .###=x###;        .###+       ###X ###X        ####.            
+  ###########; ###########+ ###########     ########### ,##########.     
+ -###########  ,##########,  #########X      ##########  +#########      
+ ,,,,,,,,,,.     ,,,,,,,,,    .,,,,,,,.       .,,,,,,,,    ,,,,,,,,      
+                                                                         
+     SCALE : Scalable Computing by Advanced Library and Environment      
+ 
+ SCALE Library ver. 5.5.3
+ SCALE NetCDF Operator
+
+INFO  [IO_LOG_setup] Setup
+INFO  [IO_LOG_setup] Open config file, FID =  10
+INFO  [IO_LOG_setup] Open log    file, FID =  11
+INFO  [IO_LOG_setup] basename of log file  = sno_vgrid_LOG_d01
+
+INFO  [IO_LOG_setup] The used config is output to the log.
+
+INFO  [PROF_setup] Setup
+INFO  [PROF_setup] Not found namelist. Default used.
+&PARAM_PROF
+ PROF_RAP_LEVEL=2          ,
+ PROF_MPI_BARRIER=F,
+ /
+
+INFO  [PROF_setup] Rap output level              =            2
+INFO  [PROF_setup] Add MPI_barrier in every rap? =  F
+
+INFO  [CONST_setup] Setup
+INFO  [CONST_setup] Not found namelist. Default used.
+&PARAM_CONST
+ CONST_RADIUS=  6371220.0000000000     ,
+ CONST_OHM=  7.2920000000000000E-005,
+ CONST_GRAV=  9.8066499999999994     ,
+ CONST_RDRY=  287.04000000000002     ,
+ CONST_CPDRY=  1004.6400000000000     ,
+ CONST_LAPS=  6.4999999999999997E-003,
+ CONST_PSTD=  101325.00000000000     ,
+ CONST_PRE00=  100000.00000000000     ,
+ CONST_TSTD=  288.14999999999998     ,
+ CONST_THERMODYN_TYPE="EXACT                           ",
+ CONST_SMALLPLANETFACTOR=  1.0000000000000000     ,
+ /
+
+INFO  [CONST_setup] List of constants 
+      PI                                                : PI      =    3.1415926535897931     
+      Small number                                      : EPS     =    2.2204460492503131E-016
+      Small number (1-EPS)                              : EPS1    =   0.99999999999999978     
+      Huge  number                                      : HUGE    =    1.7976931348623157E+308
+      undefined number (INT2)                           : UNDEF2  =       -32768
+      undefined number (REAL,general use)               : UNDEF   =   -9.9998999999999996E+030
+      undefined number (REAL4)                          : UNDEF4  =   -9.99990011E+30
+      undefined number (REAL8)                          : UNDEF8  =   -9.9998999999999996E+030
+      radius of the planet                          [m] : RADIUS  =    6371220.0000000000     
+      angular velocity of the planet              [1/s] : OHM     =    7.2920000000000000E-005
+      standard acceleration of gravity           [m/s2] : GRAV    =    9.8066499999999994     
+      Stefan-Boltzman constant                [W/m2/K4] : STB     =    5.6703730000000003E-008
+      von Karman constant                               : KARMAN  =   0.40000000000000002     
+      universal gas constant                  [J/mol/K] : R       =    8.3143600000000006     
+      mass weight (dry air)                     [g/mol] : Mdry    =    28.966000000000001     
+      specific gas constant (dry air)          [J/kg/K] : Rdry    =    287.04000000000002     
+      specific heat (dry air, const. pressure) [J/kg/K] : CPdry   =    1004.6400000000000     
+      specific heat (dry air, const. volume)   [J/kg/K] : Cvdry   =    717.59999999999991     
+      lapse rate of ISA                           [K/m] : LAPS    =    6.4999999999999997E-003
+      dry adiabatic lapse rate                    [K/m] : LAPSdry =    9.7613573021181708E-003
+      mass weight (water vapor)                 [g/mol] : Mvap    =    18.015999999999998     
+      specific gas constant (water vapor)      [J/kg/K] : Rvap    =    461.50000000000000     
+      specific heat (vapor, const. pressure)   [J/kg/K] : CPvap   =    1846.0000000000000     
+      specific heat (vapor, const. volume)     [J/kg/K] : CVvap   =    1384.5000000000000     
+      specific heat (liquid water)             [J/kg/K] : CL      =    4218.0000000000000     
+      specific heat (ice)                      [J/kg/K] : CI      =    2106.0000000000000     
+      Rdry / Rvap                                       : EPSvap  =   0.62197183098591557     
+      1 / EPSvap - 1                                    : EPSTvap =   0.60778985507246364     
+      latent heat of vaporizaion at 0C           [J/kg] : LHV0    =    2501000.0000000000     
+      latent heat of sublimation at 0C           [J/kg] : LHS0    =    2834000.0000000000     
+      latent heat of fusion      at 0C           [J/kg] : LHF0    =    333000.00000000000     
+      latent heat of vaporizaion at 0K           [J/kg] : LHV00   =    3148911.7999999998     
+      latent heat of sublimation at 0K           [J/kg] : LHS00   =    2905019.0000000000     
+      latent heat of fusion      at 0K           [J/kg] : LHF00   =   -243892.79999999993     
+      Thermodynamics calculation type : EXACT
+      saturate pressure of water vapor at 0C       [Pa] : PSAT0   =    610.77999999999997     
+      density of water                          [kg/m3] : DWATR   =    1000.0000000000000     
+      density of ice                            [kg/m3] : DICE    =    916.79999999999995     
+      speed of sound (dry air at 0C)              [m/s] : SOUND   =    331.31098140568781     
+      standard pressure                            [Pa] : Pstd    =    101325.00000000000     
+      pressure reference                           [Pa] : PRE00   =    100000.00000000000     
+      standard temperature (15C)                    [K] : Tstd    =    288.14999999999998     
+      temperature reference (0C)                    [K] : TEM00   =    273.14999999999998     
+
+INFO  [CALENDAR_setup] Setup
+INFO  [CALENDAR_setup] Not found namelist. Default used.
+&PARAM_CALENDAR
+ CALENDAR_360DAYS=F,
+ CALENDAR_365DAYS=F,
+ CALENDAR_HOUR=  24.000000000000000     ,
+ CALENDAR_MIN=  60.000000000000000     ,
+ CALENDAR_SEC=  60.000000000000000     ,
+ CALENDAR_USER_DEFINED= 12*0          ,
+ DEBUG=F,
+ /
+
+INFO  [CALENDAR_setup] Calendar settings
+      DayOfYear = 365 or 366 : Gregorian calendar
+INFO  [FILE_setup] Not found namelist. Default used.
+&PARAM_FILE
+ FILE_AGGREGATE=F,
+ /
+
+INFO  [SNO] Setup
+&PARAM_SNO
+ BASENAME_IN="./history_d01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ",
+ DIRPATH_OUT=".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+ BASENAME_OUT="merged-p_history_d01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ",
+ NPROCS_X_OUT=2          ,
+ NPROCS_Y_OUT=2          ,
+ VARS= 1000*"                                ",
+ OUTPUT_SINGLE=F,
+ OUTPUT_GRADS=F,
+ OUTPUT_GRADSCTL=F,
+ ISNORMALVAR=T,
+ DEBUG=F,
+ /
+
+INFO  [SNOPLGIN_timeave_setup] Setup
+INFO  [SNOPLGIN_timeave_setup] Not found namelist. Default used.
+&PARAM_SNOPLGIN_TIMEAVE
+ SNOPLGIN_TIMEAVE_TYPE="OFF                             ",
+ SNOPLGIN_TIMEAVE_INTERVAL=-1         ,
+ SNOPLGIN_TIMEAVE_OUTORIGDATA=F,
+ /
+
+INFO  [SNOPLGIN_timeave_setup] SNOPLGIN_timeave_type     : OFF
+
+INFO  [SNOPLGIN_vgridope_setup] Setup
+&PARAM_SNOPLGIN_VGRIDOPE
+ SNOPLGIN_VGRIDOPE_TYPE="PLEV                            ",
+ SNOPLGIN_VGRIDOPE_LEV_NUM=3          ,
+ SNOPLGIN_VGRIDOPE_LEV_DATA=  85000.000000000000     ,  50000.000000000000     ,  20000.000000000000     , 997*-1.0000000000000000      ,
+ /
+
+INFO  [SNOPLGIN_vgridope_setup] SNOPLGIN_vgridope_type     : remap to pressure-level
+
+INFO  [SNOPLGIN_hgridope_setup] Setup
+INFO  [SNOPLGIN_hgridope_setup] Not found namelist. Default used.
+&PARAM_SNOPLGIN_HGRIDOPE
+ SNOPLGIN_HGRIDOPE_TYPE="OFF                             ",
+ SNOPLGIN_HGRIDOPE_LAT_START= -1.0000000000000000     ,
+ SNOPLGIN_HGRIDOPE_LAT_END= -1.0000000000000000     ,
+ SNOPLGIN_HGRIDOPE_DLAT= -1.0000000000000000     ,
+ SNOPLGIN_HGRIDOPE_LON_START= -1.0000000000000000     ,
+ SNOPLGIN_HGRIDOPE_LON_END= -1.0000000000000000     ,
+ SNOPLGIN_HGRIDOPE_DLON= -1.0000000000000000     ,
+ SNOPLGIN_HGRIDOPE_NINTRP=5          ,
+ SNOPLGIN_HGRIDOPE_WEIGHT=2          ,
+ /
+
+INFO  [SNOPLGIN_hgridope_setup] SNOPLGIN_hgridope_type     : OFF
+
+INFO  [SNO_proc_alloc] Process management
+      # of PEs (this execution)     :            4
+      Rank     (this execution)     :            0
+      Master?  (this execution)     :  T
+      # of PEs (output file)        :            4 (           2 x           2 )
+      Start PE managed by this rank :            0
+      End   PE managed by this rank :            0
+
+INFO  [SNO_file_getinfo] Get process & horizontal grid info from input file
+
+INFO  [FILE_get_fid] Registration (  READ) : No.001, name = ./history_d01.pe000000
+
+INFO  [SNO_file_getinfo] Process info 
+      # of PEs (input  file)        :            4 (           2 x           2 )
+
+INFO  [SNO_file_getinfo] Grid info (horizontal) 
+      # of total grids           without halo :         8100 (          90 x          90 )
+      # of grids per input  file without halo :         2025 (          45 x          45 )
+      # of grids per output file without halo :         2025 (          45 x          45 )
+      # of halo grids (x-axis,one side)       :            0
+      # of halo grids (y-axis,one side)       :            0
+
+INFO  [SNO_file_getinfo] Grid info (vertical) 
+      # of vertical grids        without halo :           32
+      # of halo grids (z-axis,one side)       :            2
+
+INFO  [SNO_file_getinfo] Axis list
+      No.001, name:                    z
+      No.002, name:               z_bnds
+      No.003, name:                   zh
+      No.004, name:              zh_bnds
+      No.005, name:                   oz
+      No.006, name:              oz_bnds
+      No.007, name:                  ozh
+      No.008, name:             ozh_bnds
+      No.009, name:                   lz
+      No.010, name:              lz_bnds
+      No.011, name:                  lzh
+      No.012, name:             lzh_bnds
+      No.013, name:                   uz
+      No.014, name:              uz_bnds
+      No.015, name:                  uzh
+      No.016, name:             uzh_bnds
+      No.017, name:                    x
+      No.018, name:               x_bnds
+      No.019, name:                   xh
+      No.020, name:              xh_bnds
+      No.021, name:                    y
+      No.022, name:               y_bnds
+      No.023, name:                   yh
+      No.024, name:              yh_bnds
+      No.025, name:                   CZ
+      No.026, name:                   FZ
+      No.027, name:                  CDZ
+      No.028, name:                  FDZ
+      No.029, name:                 CBFZ
+      No.030, name:                 FBFZ
+      No.031, name:                  OCZ
+      No.032, name:                  OFZ
+      No.033, name:                 OCDZ
+      No.034, name:                  LCZ
+      No.035, name:                  LFZ
+      No.036, name:                 LCDZ
+      No.037, name:                  UCZ
+      No.038, name:                  UFZ
+      No.039, name:                 UCDZ
+      No.040, name:                   CX
+      No.041, name:                   CY
+      No.042, name:                   FX
+      No.043, name:                   FY
+      No.044, name:                  CDX
+      No.045, name:                  CDY
+      No.046, name:                  FDX
+      No.047, name:                  FDY
+      No.048, name:                 CBFX
+      No.049, name:                 CBFY
+      No.050, name:                 FBFX
+      No.051, name:                 FBFY
+      No.052, name:                  CXG
+      No.053, name:                  CYG
+      No.054, name:                  FXG
+      No.055, name:                  FYG
+      No.056, name:                 CDXG
+      No.057, name:                 CDYG
+      No.058, name:                 FDXG
+      No.059, name:                 FDYG
+      No.060, name:                CBFXG
+      No.061, name:                CBFYG
+      No.062, name:                FBFXG
+      No.063, name:                FBFYG
+      No.064, name:               height
+      No.065, name:           height_xyw
+      No.066, name:           height_uyz
+      No.067, name:           height_xvz
+      No.068, name:           height_uvz
+      No.069, name:           height_uyw
+      No.070, name:           height_xvw
+      No.071, name:           height_uvw
+      No.072, name:                  lon
+      No.073, name:               lon_uy
+      No.074, name:               lon_xv
+      No.075, name:               lon_uv
+      No.076, name:                  lat
+      No.077, name:               lat_uy
+      No.078, name:               lat_xv
+      No.079, name:               lat_uv
+      No.080, name:            cell_area
+      No.081, name:         cell_area_uy
+      No.082, name:         cell_area_xv
+      No.083, name:      cell_area_uyz_x
+      No.084, name:      cell_area_xvz_y
+      No.085, name:      cell_area_uyw_x
+      No.086, name:      cell_area_xvw_y
+      No.087, name:      cell_area_xyz_x
+      No.088, name:      cell_area_uvz_y
+      No.089, name:      cell_area_uvz_x
+      No.090, name:      cell_area_xyz_y
+      No.091, name:          cell_volume
+      No.092, name:      cell_volume_xyw
+      No.093, name:      cell_volume_uyz
+      No.094, name:      cell_volume_xvz
+      No.095, name:      cell_volume_xyo
+      No.096, name:      cell_volume_xyl
+      No.097, name:      cell_volume_xyu
+
+INFO  [SNO_file_getinfo] Variable list
+      No.001, name:                 topo
+      No.002, name:               lsmask
+      No.003, name:                 DENS
+      No.004, name:                   QV
+      No.005, name:                    W
+      No.006, name:                    U
+      No.007, name:                    V
+      No.008, name:                   PT
+      No.009, name:                    T
+      No.010, name:                 PRES
+      No.011, name:                 QHYD
+      No.012, name:                 PREC
+      No.013, name:                   RH
+      No.014, name:                 Uabs
+      No.015, name:                 Umet
+      No.016, name:                 Vmet
+      No.017, name:                 U10m
+      No.018, name:                 V10m
+      No.019, name:                   T2
+      No.020, name:                   Q2
+      No.021, name:                 MSLP
+      No.022, name:                  OLR
+      No.023, name:             SFC_PRES
+      No.024, name:             SFC_TEMP
+      No.025, name:                  U10
+      No.026, name:                  V10
+
+INFO  [SNO_map_settable_global] Calc relation map for grids and procs (global)
+INFO  [SNO_axis_getinfo] Read information of axis
+INFO  [SNO_vars_getinfo] Read information of variables
+
+INFO  [SNO]now processing rank =      0
+
+INFO  [SNO_map_settable_local] Calc relation map for grids and procs (local)
+
+INFO  [SNOPLGIN_vgridope_setcoef] Setup remapping coefficient (pressure)
+
+INFO  [INTERP_setup] Setup
+INFO  [INTERP_setup] Not found namelist. Default used.
+&PARAM_INTERP
+ INTERP_BUFFER_SIZE_FACT=  2.0000000000000000     ,
+ INTERP_USE_SPLINE_VERT=T,
+ INTERP_THRESHOLD_UNDEF=  1.0000000000000000     ,
+ /
+
+INFO  [SNO] + variable : topo
+     ++ t =      1
+
+INFO  [FILE_get_fid] Registration ( WRITE) : No.002, name = ./merged-p_history_d01.pe000000
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0001, name = topo
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+
+INFO  [SNO] + variable : lsmask
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0002, name = lsmask
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+
+INFO  [SNO] + variable : DENS
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0003, name = DENS
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : QV
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0004, name = QV
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : W
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0005, name = W
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : U
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0006, name = U
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : V
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0007, name = V
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : PT
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0008, name = PT
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : T
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0009, name = T
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : PRES
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0010, name = GPH
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : QHYD
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0011, name = QHYD
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : PREC
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0012, name = PREC
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : RH
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0013, name = RH
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : Uabs
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0014, name = Uabs
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : Umet
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0015, name = Umet
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : Vmet
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0016, name = Vmet
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : U10m
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0017, name = U10m
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : V10m
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0018, name = V10m
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : T2
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0019, name = T2
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : Q2
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0020, name = Q2
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : MSLP
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0021, name = MSLP
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : OLR
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0022, name = OLR
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : SFC_PRES
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0023, name = SFC_PRES
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : SFC_TEMP
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0024, name = SFC_TEMP
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : U10
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0025, name = U10
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [SNO] + variable : V10
+     ++ t =      1
+INFO  [FILE_def_variable] Variable registration : NO.002, vid = 0026, name = V10
+
+INFO  [FILE_enddef] End define mode : No.002, name = ./merged-p_history_d01.pe000000
+     ++ t =      2
+     ++ t =      3
+     ++ t =      4
+     ++ t =      5
+     ++ t =      6
+     ++ t =      7
+
+INFO  [FILE_close] Close : No.001, name = ./history_d01.pe000000
+
+INFO  [FILE_close] Close : No.002, name = ./merged-p_history_d01.pe000000
+
+INFO  [PROF_rapreport] Computational Time Report (Rap level =  2)
+ Main                             lev= 0: T(avg)=     1.201, T(max)=     1.466[     2], T(min)=     0.947[     4], N=        1
+ FILE                             lev= 2: T(avg)=     0.020, T(max)=     0.025[     1], T(min)=     0.016[     3], N=        4
+ FILE_Read                        lev= 2: T(avg)=     0.411, T(max)=     0.530[     1], T(min)=     0.303[     3], N=      998
+ FILE_Write                       lev= 2: T(avg)=     0.351, T(max)=     0.417[     2], T(min)=     0.282[     4], N=      170

@@ -56,13 +56,14 @@ file_path = '/home/yuta/scale-5.5.3/scale-rm/test/tutorial/real/experiment_init_
 gpyoptfile=f"BO_init_4var.pe######.nc"
 
 # 関数評価回数
-update_batch_times = 20
+update_batch_times = 5
 batch_size=5 #WSでは<=6
 opt_num=batch_size*update_batch_times  
 
-trial_num = 7 # 試行回数
+trial_num = 2#  試行回数
 
 # 降水強度を最小化したい領域
+
 Objective_X_low = 65
 Objective_X_high = 75
 Objective_Y_low = 60
@@ -72,22 +73,22 @@ Area_size=(Objective_X_high-Objective_X_low)*(Objective_Y_high-Objective_Y_low)
 Objective_T = 5
 
 # 制御する変数
-Control_Var_name = "RHOT"
+Control_Var_name = "MOMZ"
 
 # 制御対象範囲
-Control_X_low = 45
-Control_X_high = 90 #MAX =90
-Control_Y_low = 0
-Control_Y_high = 45 #MAX =90
-Control_Z_low = 0
-Control_Z_high = 35 #MAX =35?
+Control_X_low = 60
+Control_X_high =75#AX =90
+Control_Y_low = 40
+Control_Y_high = 55 #AX =90
+Control_Z_low = 0 
+Control_Z_high = 25#MAX =35?
 
 # 介入領域の大きさ
 Control_X_size = 5 #あんま変えられない　いくつか同時に変更する地点ありrandom_samples1 とか
 Control_Y_size = 5
-
+Control_Z_size = 5
 #　介入幅
-Control_Var_low = 0 # -30~30でエラー確認済み
+Control_Var_low = -10   #30~30でエラー確認済み(MOMY)
 Control_Var_high = 10
 
 
@@ -97,7 +98,7 @@ Control_Var_high = 10
 Base_estimator="GP"
 Acq_func="EI"
 
-base_dir = f"../test_result/{Control_Var_name}_t={Objective_T}_{Control_X_size}*{Control_Y_size}grids_FET={opt_num}_trials={trial_num}_{current_time}"
+base_dir = f"../test_result_4var/{Control_Var_name}_t={Objective_T}_{Control_X_size}*{Control_Y_size}*{Control_Z_size}grids_FET={opt_num}_trials={trial_num}_{current_time}"
 
 
 def predict(inputs):
@@ -128,7 +129,7 @@ def predict(inputs):
                 subprocess.run(["rm", sub_history])
         init_val_intervation(i,inputs[i][0],inputs[i][1],inputs[i][2],inputs[i][3]) # ここで初期値を書き換える
 
-    # 書き換えた初期値から runを回す（何時間分？）
+    # 書き換えた初期値から runを回す（6時間分）
     result_mpi = subprocess.run(
         ["mpirun", "-n", str(nofpe*batch_size), "./scale-rm", "run.launch.conf"],
         stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -157,8 +158,8 @@ def predict(inputs):
             for k in range(Objective_Y_low,Objective_Y_high):
                 result[i] += dat[Objective_T, 0, k, j]*TIME_INTERVAL
         
-    print(f"t={Objective_T}:Ave of PREC in X[{Objective_X_low}, {Objective_X_high-1}], Y[{Objective_Y_low}, {Objective_Y_high-1}] = {result} [mm/h]")
-    f.write(f"t={Objective_T}:Ave of PREC in X[{Objective_X_low}, {Objective_X_high-1}], Y[{Objective_Y_low}, {Objective_Y_high-1}] = {result} [mm/h]")
+    print(f"t={Objective_T}:Ave of PREC in X[{Objective_X_low}, {Objective_X_high-1}], Y[{Objective_Y_low}, {Objective_Y_high-1}] = {result} [mm/h]\n")
+    f.write(f"t={Objective_T}:Ave of PREC in X[{Objective_X_low}, {Objective_X_high-1}], Y[{Objective_Y_low}, {Objective_Y_high-1}] = {result} [mm/h]\n")
     return result
 
 def init_val_intervation(num,Center_Control_X,Center_Control_Y,Control_Z,Control_Var):
@@ -189,19 +190,19 @@ def init_val_intervation(num,Center_Control_X,Center_Control_Y,Control_Z,Control
                 dst[name].setncatts(src[name].__dict__)
                 if name == Control_Var_name:
                     var = src[name][:]
-                    print(var.shape) # 出力　(47, 47, 36)
+                    #print(var.shape) # 出力　(47, 47, 36)
                     if pe == 0:
                         if Center_Control_X<X_size/fnx and Center_Control_Y<X_size/fnx:
-                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3,int(Center_Control_X)-2:int(Center_Control_X)+3 , int(Control_Z)] += Control_Var # (y, x, z) 3:5なら3, 4のみ
+                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3,int(Center_Control_X)-2:int(Center_Control_X)+3 , int(Control_Z)-2 :  int(Control_Z)+3] += Control_Var # (y, x, z) 3:5なら3, 4のみ
                     elif pe == 1:
                         if Center_Control_X>=X_size/fnx and Center_Control_Y<X_size/fnx:
-                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)] += Control_Var
+                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)-2 :  int(Control_Z)+3] += Control_Var
                     elif pe==2:
                         if Center_Control_X<X_size/fnx and Center_Control_Y>=X_size/fnx:
-                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X)-2:int(Center_Control_X)+3, int(Control_Z)] += Control_Var
+                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X)-2:int(Center_Control_X)+3, int(Control_Z)-2 :  int(Control_Z)+3] += Control_Var
                     elif pe==3:
                         if Center_Control_X>=X_size/fnx and Center_Control_Y>=X_size/fnx:
-                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)] += Control_Var
+                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)-2 :  int(Control_Z)+3] += Control_Var
                     dst[name][:] = var
                 else:
                     dst[name][:] = src[name][:]
@@ -246,20 +247,35 @@ def sim(Center_Control_X,Center_Control_Y,Control_Z,Control_Var):
                     name, variable.datatype, variable.dimensions)
                 # copy variable attributes all at once via dictionary
                 dst[name].setncatts(src[name].__dict__)
+
+                # min_Var = float('inf')
+                # max_Var = -min_Var
+                # if name == "QR":
+                #     for i in range(47):
+                #         for j in range(47):
+                #             for k in range(36):
+                #                 if src[name][i, j, k] > max_Var:
+                #                     max_Var= src[name][i, j, k]
+                #                 elif src[name][i, j, k] < min_Var:
+                #                     min_Var= src[name][i, j, k]
+                #     print(f"{name}:{pe=}_{min_Var=}\n")
+                #     print(f"{name}:{pe=}_{max_Var=}\n")
+
+
                 if name == Control_Var_name:
                     var = src[name][:]
                     if pe == 0:
                         if Center_Control_X<X_size/fnx and Center_Control_Y<X_size/fnx:
-                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3,int(Center_Control_X)-2:int(Center_Control_X)+3 , int(Control_Z)] += Control_Var
+                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3,int(Center_Control_X)-2:int(Center_Control_X)+3 , int(Control_Z)-2 :  int(Control_Z)+3] += Control_Var
                     elif pe == 1:
                         if Center_Control_X>=X_size/fnx and Center_Control_Y<X_size/fnx:
-                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)] += Control_Var
+                            var[int(Center_Control_Y)-2:int(Center_Control_Y)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)-2 :  int(Control_Z)+3] += Control_Var
                     elif pe==2:
                         if Center_Control_X<X_size/fnx and Center_Control_Y>=X_size/fnx:
-                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X)-2:int(Center_Control_X)+3, int(Control_Z)] += Control_Var
+                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X)-2:int(Center_Control_X)+3, int(Control_Z)-2 :  int(Control_Z)+3] += Control_Var
                     elif pe==3:
                         if Center_Control_X>=X_size/fnx and Center_Control_Y>=X_size/fnx:
-                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)] += Control_Var
+                            var[int(Center_Control_Y-X_size/fnx)-2:int(Center_Control_Y-X_size/fnx)+3, int(Center_Control_X-X_size/fnx)-2:int(Center_Control_X-X_size/fnx)+3, int(Control_Z)-2 :  int(Control_Z)+3] += Control_Var
                   
                     dst[name][:] = var
                 else:
@@ -371,9 +387,11 @@ def plot_PREC(trial_i, TEST_CTRL_prec_matrix):
 
     # ヒートマップの作成 緯度経度でなくグリッド
     ## 制御後の降水強度
+    vmin = 5  # 最小値
+    vmax = 35  # 最大値
     plt.figure(figsize=(10, 8))
     plt.grid(True)
-    plt.imshow(TEST_prec_matrix.T, cmap='viridis', aspect='auto',origin='lower')  # カラーマップは好みに応じて変更可能
+    plt.imshow(TEST_prec_matrix.T, cmap='viridis', aspect='auto',origin='lower',vmin = vmin, vmax=vmax) #       カラーマップは好みに応じて変更可能
     plt.colorbar(label="precipitation (mm/h)")  # カラーバーのラベル
     plt.title(f"Time={Objective_T}h_X={Objective_X_low}-{Objective_X_high-1}_Y={Objective_Y_low}-{Objective_Y_high-1} ")
     plt.xlabel("X")
@@ -447,7 +465,7 @@ with open(config_file_path,  "w") as f:
     f.write("\n# 介入領域の大きさ\n")
     f.write(f"Control_X_size = {Control_X_size}\n")
     f.write(f"Control_Y_size = {Control_Y_size}\n")
-    
+    f.write(f"Control_Z_size = {Control_Z_size}\n")
     # 介入幅
     f.write("\n# 介入幅\n")
     f.write(f"Control_Var_low = {Control_Var_low}  # -30~30でエラー確認済み\n")
@@ -459,11 +477,12 @@ with open(config_file_path,  "w") as f:
     f.write(f"Acq_func = \"{Acq_func}\"\n")
 
 log_file = os.path.join(base_dir, "summary", f"BO_log.txt")
+summary_file = os.path.join(base_dir, "summary", f"BO_summary.txt")
 
 # 入力次元と最小値・最大値の定義
-bounds = [ Integer(Control_X_low+2, Control_X_high-3),Integer(Control_Y_low+2, Control_Y_high-3) ,Integer(Control_Z_low, Control_Z_high),Real(Control_Var_low,Control_Var_high)] # Int(2, 4) なら2, 3, 4からランダム
+bounds = [ Integer(Control_X_low+2, Control_X_high-3),Integer(Control_Y_low+2, Control_Y_high-3) ,Integer(Control_Z_low+2   , Control_Z_high-3  ),Real(Control_Var_low,Control_Var_high)] # Int(2, 4) なら2, 3, 4からランダム
 
-with open(log_file, 'w') as f:
+with open(log_file, 'w') as f, open(summary_file, 'w') as f_s:
     for trial_i in range(trial_num):
         f.write(f"{trial_i=}\n")
         random.seed(trial_i)
@@ -482,12 +501,13 @@ with open(log_file, 'w') as f:
         # 各範囲でランダム値を生成
         random_samples1 = [[random.randint(Control_X_low+2, Control_X_high-3),] for _ in range(batch_size)]
         random_samples2 = [[random.randint(Control_Y_low+2, Control_Y_high-3) ] for _ in range(batch_size)]
-        random_samples3 = [[random.randint(Control_Z_low, Control_Z_high) ] for _ in range(batch_size)]
+        random_samples3 = [[random.randint(Control_Z_low+2, Control_Z_high-3) ] for _ in range(batch_size)]
         random_samples4 = [[random.uniform(Control_Var_low,Control_Var_high)] for _ in range(batch_size)]
 
         # リストを結合してサンプルを作成
         combined_samples = [sample1 + sample2 + sample3 + sample4 for sample1, sample2, sample3, sample4 in zip(random_samples1, random_samples2, random_samples3, random_samples4)]
 
+# シミュレーション1回だけやりたいときはここから
         Y = predict(combined_samples)
         opt.tell(combined_samples,Y)
 
@@ -514,34 +534,44 @@ with open(log_file, 'w') as f:
         # best_point = opt.Xi[np.argmin(opt.yi)]
         print(f"Best value: {best_value} at point {best_point}")
 
-        optimal_inputs=best_point
+        optimal_inputs = best_point
+# ここまでコメントアウトして下のoptimalで探索地点手入力
+        # optimal_inputs=[70, 50, 20, 0]
 
         for pe in range(nofpe):
             org = org_file.replace('######', str(pe).zfill(6))
             init = init_file.replace('######', str(pe).zfill(6))
             subprocess.run(["cp", org, init])
 
-        TEST_prec_sum, CTRL_prec_sum, TEST_prec_matrix, CTRL_prec_matrix , TEST_CTRL_prec_matrix=sim(optimal_inputs[0],optimal_inputs[1],optimal_inputs[2],0)## please change
+        TEST_prec_sum, CTRL_prec_sum, TEST_prec_matrix, CTRL_prec_matrix , TEST_CTRL_prec_matrix=sim(optimal_inputs[0],optimal_inputs[1],optimal_inputs[2],optimal_inputs[3])#  change
 
         end=time.time()
         time_diff = end - start
         print(f'\n\n実行時間:{time_diff}\n')
 
+
+        # 結果のクイック描画
+        subprocess.run(["mpirun", "-n", str(nofpe), "./sno", "sno.vgridope.d01.conf"])
+        subprocess.run(["mpirun", "-n", "1","./sno", "sno.hgridope.d01.conf"])
+        subprocess.run(["grads", "-blc", "checkfig_real.gs"])
+
+        # シミュレーション結果
         print(f"CTRL_prec_matrix={CTRL_prec_matrix}")
         print(f"TEST_prec_matrix={TEST_prec_matrix}")
 
         print(f"{TEST_prec_sum=}")
         print(f"{CTRL_prec_sum=}")
         print(f"%={TEST_prec_sum/CTRL_prec_sum*100}%")
+        f_s.write(f'{trial_i=}')
 
-        f.write(f'実行時間:{time_diff}\n')
+        f_s.write(f'実行時間:{time_diff}\n')
+        f_s.write(f'{opt_num}回の評価で得られた最適解：{optimal_inputs}\n')
+        f_s.write(f"CTRL_prec_matrix={CTRL_prec_matrix}\n")
+        f_s.write(f"TEST_prec_matrix={TEST_prec_matrix}\n")
 
-        f.write(f"CTRL_prec_matrix={CTRL_prec_matrix}\n")
-        f.write(f"TEST_prec_matrix={TEST_prec_matrix}\n")
-
-        f.write(f"{TEST_prec_sum=}")
-        f.write(f"{CTRL_prec_sum=}")
-        f.write(f"%={TEST_prec_sum/CTRL_prec_sum*100}%\n\n")
+        f_s.write(f"{TEST_prec_sum=}")
+        f_s.write(f"{CTRL_prec_sum=}")
+        f_s.write(f"%={TEST_prec_sum/CTRL_prec_sum*100}%\n\n")
         plot_PREC(trial_i, TEST_CTRL_prec_matrix)
 
 

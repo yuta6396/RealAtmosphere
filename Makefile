@@ -14,14 +14,14 @@ CODE_DIR    = .
 ORG_SRCS    =
 
 # parameters for run
-RUNCONF     = run.launch.conf
+SNOCONF     = sno.vgridope.d01.conf,sno.hgridope.d01.conf
 
-TPROC       = 4
+TPROC       = 4,1
 
 # required data (parameters,distributed files)
+DATDIR      =
 DATPARAM    =
 DATDISTS    =
-
 
 # build, makedir, run, jobshell, allclean, clean is inside of common Makefile
 include $(TESTDIR)/Makefile.common
