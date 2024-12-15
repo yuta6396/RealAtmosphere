@@ -56,12 +56,12 @@ file_path = '/home/yuta/scale-5.5.3/scale-rm/test/tutorial/real/experiment_init_
 gpyoptfile=f"BO_init_4var.pe######.nc"
 
 # 関数評価回数
-update_batch_times = 5
+update_batch_times = 40
 batch_size=5 #WSでは<=6
 opt_num=batch_size*update_batch_times  
 
-trial_num = 2#  試行回数
-
+trial_num = 1#  試行回数
+trial_base = 0
 # 降水強度を最小化したい領域
 
 Objective_X_low = 65
@@ -73,23 +73,23 @@ Area_size=(Objective_X_high-Objective_X_low)*(Objective_Y_high-Objective_Y_low)
 Objective_T = 5
 
 # 制御する変数
-Control_Var_name = "MOMZ"
+Control_Var_name = "MOMY"
 
 # 制御対象範囲
-Control_X_low = 60
-Control_X_high =75#AX =90
-Control_Y_low = 40
-Control_Y_high = 55 #AX =90
+Control_X_low = 45
+Control_X_high =90#AX =90
+Control_Y_low = 45
+Control_Y_high = 90 #AX =90
 Control_Z_low = 0 
-Control_Z_high = 25#MAX =35?
+Control_Z_high = 36#MAX =36 36層存在
 
 # 介入領域の大きさ
 Control_X_size = 5 #あんま変えられない　いくつか同時に変更する地点ありrandom_samples1 とか
 Control_Y_size = 5
 Control_Z_size = 5
 #　介入幅
-Control_Var_low = -10   #30~30でエラー確認済み(MOMY)
-Control_Var_high = 10
+Control_Var_low = -20   #30~30でエラー確認済み(MOMY)
+Control_Var_high = 20
 
 
 
@@ -98,7 +98,7 @@ Control_Var_high = 10
 Base_estimator="GP"
 Acq_func="EI"
 
-base_dir = f"../test_result_4var/{Control_Var_name}_t={Objective_T}_{Control_X_size}*{Control_Y_size}*{Control_Z_size}grids_FET={opt_num}_trials={trial_num}_{current_time}"
+base_dir = f"../result_4var/{Control_Var_name}_t={Objective_T}_{Control_X_size}*{Control_Y_size}*{Control_Z_size}grids_FET={opt_num}_trials={trial_base}-{trial_base+trial_num-1}_{current_time}"
 
 
 def predict(inputs):
@@ -435,6 +435,7 @@ with open(config_file_path,  "w") as f:
     
     # 試行回数
     f.write(f"\ntrial_num = {trial_num}  # 試行回数\n")
+    f.write(f"\n{trial_base=}  # seedの最初の値\n")
     
     # 降水強度を最小化したい領域
     f.write("\n# 降水強度を最小化したい領域\n")
@@ -478,13 +479,15 @@ with open(config_file_path,  "w") as f:
 
 log_file = os.path.join(base_dir, "summary", f"BO_log.txt")
 summary_file = os.path.join(base_dir, "summary", f"BO_summary.txt")
+analysis_file = os.path.join(base_dir, "summary", f"BO_analysis.txt")
 
 # 入力次元と最小値・最大値の定義
 bounds = [ Integer(Control_X_low+2, Control_X_high-3),Integer(Control_Y_low+2, Control_Y_high-3) ,Integer(Control_Z_low+2   , Control_Z_high-3  ),Real(Control_Var_low,Control_Var_high)] # Int(2, 4) なら2, 3, 4からランダム
 
-with open(log_file, 'w') as f, open(summary_file, 'w') as f_s:
-    for trial_i in range(trial_num):
+with open(log_file, 'w') as f, open(summary_file, 'w') as f_s, open(analysis_file, 'w') as f_a:
+    for trial_i in range(trial_base, trial_base+trial_num):
         f.write(f"{trial_i=}\n")
+        f_a.write(f"\n{trial_i=}\n")
         random.seed(trial_i)
 
         start = time.time()  # 現在時刻（処理開始前）を取得
@@ -510,6 +513,7 @@ with open(log_file, 'w') as f, open(summary_file, 'w') as f_s:
 # シミュレーション1回だけやりたいときはここから
         Y = predict(combined_samples)
         opt.tell(combined_samples,Y)
+        f_a.write(f"Batch 0: Best value so far: {min(opt.yi)}\n")
 
         for j in range(update_batch_times-1):
             # アクイジション関数を用いて次の探索点を決定
@@ -523,6 +527,7 @@ with open(log_file, 'w') as f, open(summary_file, 'w') as f_s:
             opt.tell(next_points, values)
             print(f"Batch {j+1}: Best value so far: {min(opt.yi)}\n")
             f.write(f"Batch {j+1}: Best value so far: {min(opt.yi)}\n\n")
+            f_a.write(f"Batch {j+1}: Best value so far: {min(opt.yi)}\n")
 
         # 結果の取得
         best_value = min(opt.yi)
