@@ -693,7 +693,7 @@ INFO  [FILE_close] Close : No.004, name = ./merged-p_history_d01.pe000003
 INFO  [FILE_close] Close : No.005, name = ./merged-h_history_d01.pe000000
 
 INFO  [PROF_rapreport] Computational Time Report (Rap level =  2)
- Main                             lev= 0: T(avg)=     0.786, T(max)=     0.786[     1], T(min)=     0.786[     1], N=        1
+ Main                             lev= 0: T(avg)=     0.806, T(max)=     0.806[     1], T(min)=     0.806[     1], N=        1
  FILE                             lev= 2: T(avg)=     0.051, T(max)=     0.051[     1], T(min)=     0.051[     1], N=       10
- FILE_Read                        lev= 2: T(avg)=     0.309, T(max)=     0.309[     1], T(min)=     0.309[     1], N=     1195
- FILE_Write                       lev= 2: T(avg)=     0.309, T(max)=     0.309[     1], T(min)=     0.309[     1], N=      170
+ FILE_Read                        lev= 2: T(avg)=     0.316, T(max)=     0.316[     1], T(min)=     0.316[     1], N=     1195
+ FILE_Write                       lev= 2: T(avg)=     0.320, T(max)=     0.320[     1], T(min)=     0.320[     1], N=      170

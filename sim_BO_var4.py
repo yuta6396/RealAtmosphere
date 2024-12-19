@@ -60,7 +60,7 @@ update_batch_times = 40
 batch_size=5 #WSでは<=6
 opt_num=batch_size*update_batch_times  
 
-trial_num = 1#  試行回数
+trial_num = 8#  試行回数
 trial_base = 0
 # 降水強度を最小化したい領域
 
@@ -78,8 +78,8 @@ Control_Var_name = "MOMY"
 # 制御対象範囲
 Control_X_low = 45
 Control_X_high =90#AX =90
-Control_Y_low = 45
-Control_Y_high = 90 #AX =90
+Control_Y_low = 0
+Control_Y_high = 45 #AX =90
 Control_Z_low = 0 
 Control_Z_high = 36#MAX =36 36層存在
 
